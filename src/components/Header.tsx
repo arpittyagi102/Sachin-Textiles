@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { CATEGORIES } from "@/constants";
 
 export default function Header() {

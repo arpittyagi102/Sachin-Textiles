@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function Hero({ items }: { items: any }) {
+export default function Hero({ items }: HeroProps) {
     return (
         <section className="m-10 mx-14 relative">
             <h1 className="text-3xl font-bold mb-4">
@@ -11,7 +11,7 @@ export default function Hero({ items }: { items: any }) {
             </p>
 
             <div className="flex flex-wrap justify-between mt-6 gap-10">
-                {items.map((item: any, index: number) => (
+                {items.map((item: HeroItem, index: number) => (
                     <div key={index} className='w-[27%]'>
                         <Image src={item.image} alt={item.name} height="300" width="300" className="aspect-square object-cover rounded-xl" />
                         <div className="p-4 bg-opacity-50 text-center">
@@ -26,4 +26,13 @@ export default function Hero({ items }: { items: any }) {
             </div>
         </section>
     );
-    }
+}
+
+type HeroItem = {
+    name: string,
+    image: string
+}
+
+type HeroProps = {
+    items: HeroItem[]
+}
