@@ -17,4 +17,47 @@ const HERO_CONTENT = [{
     }
 ]
 
-export { CAROUSEL_IMAGES, HERO_CONTENT }
+const PRODUCTS = [{
+        name: "Face Mask",
+        image: "/images/products/face-mask.png",
+        price: 100,
+        rating: 5,
+    }, {
+        name: "Face Mask",
+        image: "/images/products/face-mask.png",
+        price: 100,
+        rating: 5,
+    }, {
+        name: "Face Mask",
+        image: "/images/products/face-mask.png",
+        price: 100,
+        rating: 5,
+    }, {
+        name: "Face Mask",
+        image: "/images/products/face-mask.png",
+        price: 100,
+        rating: 5,
+    }, {
+        name: "Face Mask",
+        image: "/images/products/face-mask.png",
+        price: 100,
+        rating: 5,
+    }, {
+        name: "Face Mask",
+        image: "/images/products/face-mask.png",
+        price: 100,
+        rating: 5,
+    }, {
+        name: "Face Mask",
+        image: "/images/products/face-mask.png",
+        price: 100,
+        rating: 5,
+    }, {
+        name: "Face Mask",
+        image: "/images/products/face-mask.png",
+        price: 100,
+        rating: 5,
+    }
+];
+
+export { CAROUSEL_IMAGES, HERO_CONTENT, PRODUCTS }

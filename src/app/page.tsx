@@ -4,6 +4,8 @@ import Carousel from "@/components/Home/Carousel";
 import { CAROUSEL_IMAGES } from "@/constants/static";
 import Hero from "@/components/Home/Hero";
 import { HERO_CONTENT } from "@/constants/static";
+import Products from "@/components/Products";
+import { PRODUCTS } from "@/constants/static";
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
       <Header2 />
       <Carousel items={CAROUSEL_IMAGES}/>
       <Hero items={HERO_CONTENT}/>
+      <Products items={PRODUCTS}/>
     </div>
   );
 }
