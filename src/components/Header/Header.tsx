@@ -1,6 +1,13 @@
+'use client'
 import { CATEGORIES } from "@/constants";
+import { useSelector, useDispatch } from 'react-redux'
+import { searchChange, categoryChange } from './search'
+import type { RootState } from '@/lib/store'
 
 export default function Header() {
+    const searchString = useSelector((state: RootState) => state.search.value)
+    const dispatch = useDispatch()
+
     return (
         <header className="flex items-center justify-between px-5 mt-3 py-4 bg-white">
             {/* Logo */}
@@ -10,14 +17,14 @@ export default function Header() {
             {/* Search Section */}
             <div className="flex items-strech justify-between border border-neutral-300 rounded-full overflow-hidden">
                 {/* Categories */}
-                <select className="bg-neutral-200 px-2 py-3 text-neutral-500">
+                <select className="bg-neutral-200 px-2 py-3 text-neutral-500" onChange={(e) => dispatch(categoryChange(e.target.value))}>
                     {CATEGORIES.map((category) => (
                         <option key={category}>{category}</option>
                     ))}
                 </select>
                 
                 {/* Search Bar */}
-                    <input type="text" placeholder="Search for products" className="px-5 w-[350px]" />
+                    <input type="text" placeholder="Search for products" className="px-5 w-[350px]" value={searchString} onChange={(e) => dispatch(searchChange(e.target.value))}/>
                     <button className="p-2 pr-4">
                         <svg width="25px" height="25px" viewBox="0 0 24 24" className=" fill-neutral-400" xmlns="http://www.w3.org/2000/svg">
                             <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
