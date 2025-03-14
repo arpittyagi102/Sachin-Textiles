@@ -1,4 +1,5 @@
 import { PRODUCTS } from "@/constants";
+import Image from "next/image";
 
 export default async function Page({ params }) {
     const { name, id } = await params;
@@ -21,7 +22,7 @@ export default async function Page({ params }) {
       <main>
         <div className="Product-View flex justify-between gap-10">
             <div className="Product-View-Image rounded-xl overflow-hidden flex-1/2">
-                <img src={product?.image || "/images/products/face-mask.png"} alt={product.Product_Name} className=" aspect-[4/3]"/>
+                <Image src={/*product?.image || */"/images/products/face-mask.png"} alt={product.Product_Name} className=" aspect-[4/3]"/>
             </div>
             <div className="Product-View-Details flex-1/2">
                 <h1 className="text-4xl mb-5 font-bold">{product.Product_Name}</h1>

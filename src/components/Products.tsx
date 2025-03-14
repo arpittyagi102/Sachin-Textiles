@@ -43,8 +43,8 @@ type ProductsProps = {
         Product_Category: string,
         Product_Name: string,
         Description: string,
-        Feature: string,
-        Price: string,
+        Feature?: string | number,       // todo: Fix the type here
+        Price: string | number,       // todo: Fix the type here
         Gender: string,
         Style: string,
         Matterial: string,
@@ -53,7 +53,7 @@ type ProductsProps = {
         Sleeve_Style: string,
         Size: string,
         type: string,
-        handeling: string,
+        handeling?: string | number,       // todo: Fix the type here
         Waist_Pocket: string,
         Texture: string,
         Strength: string,
@@ -63,8 +63,8 @@ type ProductsProps = {
         Shape: string,
         Washable: string,
 
-        image: string,
-        rating: number,
-        id: string
+        image?: string,
+        rating?: number,
+        id?: string
     }[];
 }

@@ -3,7 +3,7 @@ import { CAROUSEL_IMAGES } from "@/constants/static";
 import Hero from "@/components/Home/Hero";
 import { HERO_CONTENT } from "@/constants/static";
 import Products from "@/components/Products";
-import { PRODUCTS } from "@/constants/static";
+import { PRODUCTS } from "@/constants";
 
 export default function Home() {
   return (
