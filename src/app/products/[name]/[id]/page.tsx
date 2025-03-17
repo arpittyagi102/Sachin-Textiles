@@ -1,10 +1,9 @@
 import { PRODUCTS } from "@/constants";
 import Products from "@/components/Products/Products";
-import Image from "next/image";
 import AddToBag from "@/components/Products/AddToBag";
 
 export default async function Page({ params }) {
-    const { name, id } = await params;
+    const { /*name,*/ id } = await params;
     const pid = id.split("-")[0];
 
     if(!pid){

@@ -27,7 +27,7 @@ export const cartSlice = createSlice({
                 state.splice(index, 1)
             }
         },
-        clearCart: (state) => {
+        clearCart: (/*state*/) => {
             return []
         }
     }

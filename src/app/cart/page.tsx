@@ -2,7 +2,7 @@
 import { useSelector } from 'react-redux';
 import type { RootState } from '@/lib/store';
 
-export default function() {
+export default function Page() {
     const cart = useSelector((state: RootState) => state.cart);
     console.log("cart", cart);
     

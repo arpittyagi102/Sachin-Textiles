@@ -3,7 +3,7 @@ import { CATEGORIES, NAV_ITEMS, SOCIAL_MEDIA } from "@/constants";
 import { useSelector, useDispatch } from 'react-redux'
 import Image from "next/image";
 import Link from "next/link";
-import { searchChange, categoryChange } from './search'
+import { searchChange } from './search'
 import type { RootState } from '@/lib/store'
 import { usePathname } from 'next/navigation'
 import { useState } from "react";

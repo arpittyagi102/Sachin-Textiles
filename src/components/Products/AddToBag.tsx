@@ -1,6 +1,6 @@
 "use client"
 import { useDispatch } from "react-redux"
-import { addToCart, removeFromCart, clearCart } from "@/components/Cart/cartSlice"; 
+import { addToCart } from "@/components/Cart/cartSlice"; 
 import { useState } from "react";
 
 export default function AddToBag({ product }) {
