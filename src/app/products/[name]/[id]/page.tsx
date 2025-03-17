@@ -1,11 +1,11 @@
 import { PRODUCTS } from "@/constants";
+import Products from "@/components/Products/Products";
 import Image from "next/image";
+import AddToBag from "@/components/Products/AddToBag";
 
 export default async function Page({ params }) {
     const { name, id } = await params;
-    console.log(name, id);
     const pid = id.split("-")[0];
-    console.log(pid);
 
     if(!pid){
         console.log("No id found");
@@ -16,29 +16,54 @@ export default async function Page({ params }) {
     if(!product){
         return <h1>Product not found</h1>
     }
-    console.log("product", product);
   
-    return (
+    return ( 
       <main>
-        <div className="Product-View flex justify-between gap-10">
+        <div className="Product-View flex flex-col lg:flex-row justify-between gap-4 lg:gap-10">
             <div className="Product-View-Image rounded-xl overflow-hidden flex-1/2">
-                <Image src={/*product?.image || */"/images/products/face-mask.png"} alt={product.Product_Name} className=" aspect-[4/3]"/>
+                <img loading="lazy" decoding="async" src={"/images/Products/"+product.Images[0]} alt={product.Product_Name} className=" aspect-[4/3]"/>
             </div>
             <div className="Product-View-Details flex-1/2">
-                <h1 className="text-4xl mb-5 font-bold">{product.Product_Name}</h1>
-                <p className="text-neutral-500 mb-5">{product.Description}</p>
-                <p className="text-2xl">MRP: <span className="text-3xl font-bold">₹{product.Price}</span></p>
-                <p className="text-2xl text-neutral-500">Inclusive of all taxes</p>
+                <h1 className="text-2xl md:text-4xl md:mb-5 font-bold">{product.Product_Name}</h1>
+                <p className="text-xs md:text-md text-neutral-500 md:mb-5">{product.Description}</p>
+                <p className="text-lg md:text-2xl">MRP: <span className="text-lg md:text-3xl font-bold text-primary">₹{product.Price}</span></p>
+                <p className="text-lg md:text-2xl text-neutral-500">Inclusive of all taxes</p>
 
                 <div className="quote bg-neutral-200 p-4 pl-8 rounded-xl mt-5">
                     <ul><li className="list-disc">No refund Policy</li></ul>
                 </div>
 
-                <button className="bg-[#205781] text-white text-lg rounded-lg px-7 py-2 mt-5">
-                    Add to Bag
-                </button>
+                <AddToBag product={product} />
             </div>
         </div>
+
+        <div>
+            <h2 className="text-2xl md:text-4xl mt-10">Product Details</h2>
+            <p className="text-xs md:text-md text-neutral-500 md:mb-5">{product.Description}</p>
+            <ul className="ml-8 text-lg md:text-2xl">
+                {Object.keys(product).map((key) => {
+                    return (<div key={key}>
+                        {(product[key] && key!="id") 
+                            && 
+                        <li className=" list-disc">{key}: {product[key]}</li>}
+                    </div>)
+                })}
+            </ul>
+        </div>
+
+        <SimilarProducts product={product}/>
       </main>
     );
+  }
+
+  function SimilarProducts({product}) {
+    const similar = PRODUCTS.filter((p) => {
+        return p.Product_Category == product.Product_Category && p.id != product.id;
+    });
+
+    return (
+        <div className="Similar-Products">
+            <Products items={similar} title="Similar Products" />
+        </div>
+    )
   }

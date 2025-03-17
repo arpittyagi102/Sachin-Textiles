@@ -1,12 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { counterSlice } from './slice'
 import { searchSlice } from '@/components/Header/search'
+import { cartSlice } from '@/components/Cart/cartSlice'
 
 export const makeStore = () => {
   return configureStore({
     reducer: {
         counter: counterSlice.reducer,
         search: searchSlice.reducer,
+        cart: cartSlice.reducer
     },
   })
 }
