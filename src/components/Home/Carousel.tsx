@@ -1,6 +1,5 @@
 'use client'
 import { useState,useEffect } from "react";
-import Image from "next/image";
 
 export default function Carousel({ items }: CarouselProps) {
     const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -52,9 +51,9 @@ export default function Carousel({ items }: CarouselProps) {
             </svg>
         </button>
 
-        <div className="overlay absolute right-0 -top-8">
+        {/* <div className="overlay absolute right-0 -top-8">
             <Image src="/images/overlay.png" alt="overlay" height="900" width="900"/>
-        </div>
+        </div> */}
 
         {/* <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 flex space-x-2 opacity-50">
           {items.map((_, index) => (
