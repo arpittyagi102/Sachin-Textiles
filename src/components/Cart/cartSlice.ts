@@ -1,11 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from '@reduxjs/toolkit'
 import type { RootState } from '@/lib/store'
-import type { Product } from "@/lib/types";
-
-interface ProductInCart extends Product {
-    quantity: number
-}
+import type { ProductInCart } from "@/lib/types";
 
 const initialState: ProductInCart[] = []
 
@@ -23,8 +19,10 @@ export const cartSlice = createSlice({
         },
         removeFromCart: (state, action: PayloadAction<string>) => {
             const index = state.findIndex(item => item.id === action.payload)
-            if (index !== -1) {
-                state.splice(index, 1)
+            if (state[index].quantity > 1) {
+                state[index].quantity --;
+            } else {
+                state.splice(index, 1);
             }
         },
         clearCart: (/*state*/) => {

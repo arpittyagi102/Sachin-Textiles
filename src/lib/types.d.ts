@@ -4,7 +4,7 @@ type Product = {
     Product_Name: string,
     Description: string,
     Feature?: string | number,       // todo: Fix the type here
-    Price: string | number,       // todo: Fix the type here
+    Price: string,       
     Gender: string,
     Style: string,
     Matterial: string,
@@ -26,4 +26,8 @@ type Product = {
     rating?: number,
 }
 
-export type { Product };
+interface ProductInCart extends Product {
+    quantity: number
+}
+
+export type { Product, ProductInCart };
