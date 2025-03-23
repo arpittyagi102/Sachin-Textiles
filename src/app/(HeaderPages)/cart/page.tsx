@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import type { RootState } from '@/lib/store'
 import { addToCart, removeFromCart } from "@/components/Cart/cartSlice"; 
 import type { ProductInCart } from '@/lib/types'
-import Checkout from '@/components/Cart/Checkout';
+import Link from 'next/link';
 
 export default function Page() {
     const cart = useSelector((state: RootState) => state.cart);
@@ -19,7 +19,9 @@ export default function Page() {
                 </div>
             </div>
 
-            <Checkout amount={subTotal}/>
+            <Link href="/cart/checkout" className="mt-4 ml-auto w-fit text-white p-2 rounded-md px-4 py-2 text-lg bg-primary focus:outline-none">
+                Proceed to Payment
+            </Link>
         </div>
     )
 }

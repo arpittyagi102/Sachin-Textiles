@@ -56,13 +56,13 @@ const CAROUSEL_IMAGES = [
     
 const HERO_CONTENT = [{
         name: "Healthcare textiles",
-        image: "/images/hc1.jpg",
+        image: "/images/hc1.png",
     }, {
         name: "Medical Wears",
         image: "/images/hc2.png",
     }, {
         name: "Industrial Textiles",
-        image: "/images/hc3.jpg",
+        image: "/images/hc3.png",
     }
 ]
     
@@ -80,4 +80,20 @@ const SOCIAL_MEDIA = [
     { name: "Youtube", link: "#", icon: "/icons/youtube.svg" }
 ]
 
-export { CATEGORIES, PRODUCTS, CAROUSEL_IMAGES, HERO_CONTENT, NAV_ITEMS, SOCIAL_MEDIA };
+const DP_SECTION = [
+    "/images/About/Dp/image1.jpg",
+    "/images/About/Dp/image2.png",
+    "/images/About/Dp/image3.png",
+    "/images/About/Dp/image4.png",
+    "/images/About/Dp/image5.png",
+]
+
+const HOME_CATEGORIES = [
+    "/images/Home/dh1.png",
+    "/images/Home/dh2.png",
+    "/images/Home/dh3.png",
+    "/images/Home/dh4.png",
+    "/images/Home/dh5.png",
+]
+
+export { CATEGORIES, PRODUCTS, CAROUSEL_IMAGES, HERO_CONTENT, HOME_CATEGORIES, NAV_ITEMS, SOCIAL_MEDIA, DP_SECTION };
