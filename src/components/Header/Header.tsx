@@ -15,6 +15,8 @@ export default function Header() {
     const route = "/" + pathname.split("/")[1];
 
     const searchString = useSelector((state: RootState) => state.search.value)
+    const cart = useSelector((state: RootState) => state.cart)
+
     const dispatch = useDispatch()
 
     const [isNavOpen, setIsNavOpen] = useState(false);
@@ -31,7 +33,7 @@ export default function Header() {
 
             {/* Right buttons */}
             <div className="right-buttons flex items-center order-2 md:order-3">
-                <Link className="h-6 w-6 lg:h-10 lg:w-10" href="/cart">
+                <Link className="h-6 w-6 lg:h-10 lg:w-10 relative" href="/cart">
                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="stroke-black">
                         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                         <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -39,6 +41,8 @@ export default function Header() {
                             <path d="M6.29977 5H21L19 12H7.37671M20 16H8L6 3H3M9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20ZM20 20C20 20.5523 19.5523 21 19 21C18.4477 21 18 20.5523 18 20C18 19.4477 18.4477 19 19 19C19.5523 19 20 19.4477 20 20Z" stroke="inherit" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> 
                         </g>
                     </svg>
+
+                    { cart.length > 0 && <span className="absolute right-0 top-0 bg-orange-500 text-white w-5 h-5 text-xs flex items-center justify-center rounded-full">{cart.length}</span> }
                 </Link>
                 <button className="hidden md:block bg-primary ml-3 px-4 py-2 xl:px-6 xl:py-2 text-white rounded-lg">
                     Shop Now
