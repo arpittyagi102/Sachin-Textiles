@@ -78,12 +78,12 @@ export default function Header() {
         </header>
 
         {/* Lower Header */}
-        <nav className="flex items-center justify-between md:mb-3 md:px-5 bg-white md:text-xl font-semibold" style={{fontWeight: 500}}>
+        <nav className="flex items-center justify-between md:mb-1 md:px-5 bg-white md:text-xl font-semibold" style={{fontWeight: 500}}>
             {/* Navigation */}
             <ul className={`${isNavOpen ? "flex" : "hidden"} md:flex flex-col md:flex-row space-x-3 w-full `}>
                 {NAV_ITEMS.map((item, index) => (
                     <li key={index}>
-                        <Link href={item.path} className={`w-full block px-2 py-1 md:w-auto md:px-6 md:py-2 rounded-lg border-2 border-white ${route === item.path ? "bg-primary text-white" : "text-neutral-700"} hover:border-primary`}>
+                        <Link href={item.path} className={`w-full text-[18px] block px-2 py-1 md:w-auto md:px-6 md:py-2 rounded-lg border-2 border-white ${route === item.path ? "bg-primary text-white" : "text-neutral-700"} hover:border-primary`}>
                             {item.name}
                         </Link>
                     </li>

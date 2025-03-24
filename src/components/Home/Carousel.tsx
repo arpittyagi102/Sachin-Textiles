@@ -28,7 +28,7 @@ export default function Carousel({ items }: CarouselProps) {
         >
           {items.map((item, index) => (
             <div key={index} className="min-w-full">
-              <img src={item} alt={`Slide ${index}`} className="w-full h-auto" />
+              <img src={item} alt={`Slide ${index}`} className={`${index!=0 && "mt-4"} w-full h-auto`}/>
             </div>
           ))}
         </div>
