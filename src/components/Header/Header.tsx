@@ -40,7 +40,7 @@ export default function Header() {
                         </g>
                     </svg>
                 </Link>
-                <button className="hidden md:block bg-primary ml-3 px-4 py-2 xl:px-6 xl:py-3 text-white rounded-lg">
+                <button className="hidden md:block bg-primary ml-3 px-4 py-2 xl:px-6 xl:py-2 text-white rounded-lg">
                     Shop Now
                 </button>
 
@@ -52,7 +52,7 @@ export default function Header() {
             </div>
 
             {/* Search Section */}
-            <div className="w-full flex items-strech justify-between border mt-2 border-neutral-300 rounded-full overflow-hidden order-3 md:order-2 md:w-auto">
+            <div className="w-full flex items-center justify-between border mt-2 border-neutral-300 rounded-full overflow-hidden order-3 md:order-2 md:w-auto">
                 {/* Categories */}
                 <div className="bg-neutral-200 text-neutral-500 px-1 flex items-center lg:w-full lg:px-2 lg:py-3 ">
                     <select className="w-full focus:outline-none" onChange={handleSelectCategory}>
@@ -80,10 +80,10 @@ export default function Header() {
         {/* Lower Header */}
         <nav className="flex items-center justify-between md:mb-3 md:px-5 bg-white md:text-xl font-semibold" style={{fontWeight: 500}}>
             {/* Navigation */}
-            <ul className={`${isNavOpen ? "flex" : "hidden"} md:flex flex-col md:flex-row space-x-6 w-full `}>
+            <ul className={`${isNavOpen ? "flex" : "hidden"} md:flex flex-col md:flex-row space-x-3 w-full `}>
                 {NAV_ITEMS.map((item, index) => (
                     <li key={index}>
-                        <Link href={item.path} className={`w-full block px-2 py-1 md:w-auto md:px-6 md:py-3 rounded-lg border-2 border-white ${route === item.path ? "bg-primary text-white" : "text-neutral-700"} hover:border-primary`}>
+                        <Link href={item.path} className={`w-full block px-2 py-1 md:w-auto md:px-6 md:py-2 rounded-lg border-2 border-white ${route === item.path ? "bg-primary text-white" : "text-neutral-700"} hover:border-primary`}>
                             {item.name}
                         </Link>
                     </li>
