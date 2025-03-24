@@ -49,9 +49,8 @@ const CATEGORIES = [{
 
 const CAROUSEL_IMAGES = [
     "/images/Banner/image.png",
-    "/images/Banner/image.png",
-    "/images/Banner/image.png",
-    "/images/Banner/image.png",
+    "/images/Banner/image2.png",
+    "/images/Banner/image3.png",
 ]
     
 const HERO_CONTENT = [{

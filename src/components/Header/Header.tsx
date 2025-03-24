@@ -25,7 +25,7 @@ export default function Header() {
     }
 
     return (<>
-        <header className="flex items-center justify-between flex-wrap md:flex-nowrap lg:px-4 lg:mt-3 lg:py-4 bg-white xl:text-xl">
+        <header className="flex items-center justify-between flex-wrap md:flex-nowrap lg:px-4 lg:py-2 bg-white xl:text-xl">
             {/* Logo */}
             <Image src="/images/Logo.webp" alt="Logo" width={200} height={200} className="w-30 lg:40 xl:w-50"/>
 
@@ -54,12 +54,14 @@ export default function Header() {
             {/* Search Section */}
             <div className="w-full flex items-strech justify-between border mt-2 border-neutral-300 rounded-full overflow-hidden order-3 md:order-2 md:w-auto">
                 {/* Categories */}
-                <select className="bg-neutral-200 px-1 w-28 lg:w-full lg:px-2 lg:py-3 text-neutral-500 focus:outline-none" onChange={handleSelectCategory}>
-                    <option value="All Products">All Products</option>
-                    {CATEGORIES.map((category) => (
-                        <option key={category.name}>{category.name}</option>
-                    ))}
-                </select>
+                <div className="bg-neutral-200 text-neutral-500 px-1 flex items-center lg:w-full lg:px-2 lg:py-3 ">
+                    <select className="w-full focus:outline-none" onChange={handleSelectCategory}>
+                        <option value="All Products">All Products</option>
+                        {CATEGORIES.map((category) => (
+                            <option key={category.name}>{category.name}</option>
+                        ))}
+                    </select>
+                </div>
                 
                 {/* Search Bar */}
                 <input type="text" placeholder="Search for products" className="w-full focus:outline-none px-1 lg:px-5 " value={searchString} onChange={(e) => dispatch(searchChange(e.target.value))}/>
@@ -76,12 +78,12 @@ export default function Header() {
         </header>
 
         {/* Lower Header */}
-        <nav className="flex items-center justify-between md:my-3 md:px-5 py-1 bg-white md:text-xl font-semibold">
+        <nav className="flex items-center justify-between md:mb-3 md:px-5 bg-white md:text-xl font-semibold" style={{fontWeight: 500}}>
             {/* Navigation */}
             <ul className={`${isNavOpen ? "flex" : "hidden"} md:flex flex-col md:flex-row space-x-6 w-full `}>
                 {NAV_ITEMS.map((item, index) => (
                     <li key={index}>
-                        <Link href={item.path} className={`w-full block px-4 py-2 md:w-auto md:px-6 md:py-3 rounded-lg border-2 border-white ${route === item.path ? "bg-primary text-white" : "text-neutral-700"} hover:border-primary`}>
+                        <Link href={item.path} className={`w-full block px-2 py-1 md:w-auto md:px-6 md:py-3 rounded-lg border-2 border-white ${route === item.path ? "bg-primary text-white" : "text-neutral-700"} hover:border-primary`}>
                             {item.name}
                         </Link>
                     </li>
