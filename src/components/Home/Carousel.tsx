@@ -21,7 +21,7 @@ export default function Carousel({ items }: CarouselProps) {
     }, [items.length]);
   
     return (
-      <div className="relative w-full overflow-x-clip mb-[-10%]">
+      <div className="relative w-full overflow-x-clip mb-[-10%] px-4">
         <div
           className="flex transition-transform duration-300"
           style={{ transform: `translateX(-${currentIndex * 100}%)`, animationDelay: '4000' }}

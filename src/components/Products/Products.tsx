@@ -5,7 +5,7 @@ import AddToBagIcon from "./AddToBagIcon";
 export default function Products({ items, title }: ProductsProps) {
     return (
         <section>
-            <h1 className="text-2xl md:text-4xl text-center font-bold md:mb-6">{title || "Explore Our wide range of Products"}</h1>
+            <h1 className="text-2xl md:text-4xl px-2 text-center font-bold md:mb-6">{title || "Explore Our wide range of Products"}</h1>
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:gap-4 mt-8">
                 {items.map((item, index) => (
                     <Product item={item} key={index} />

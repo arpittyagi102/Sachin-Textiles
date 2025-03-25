@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function BestSellers() {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const itemsPerSlide = 3; // Number of products to show at a time
+    const itemsPerSlide = 4; // Number of products to show at a time
 
     // Move to the next set of products
     const nextSlide = () => {
@@ -37,7 +37,7 @@ export default function BestSellers() {
                 </button>
 
                 {/* Product Carousel */}
-                <div className="flex overflow-scroll">
+                <div className="flex overflow-scroll no-scrollbar">
                     <div
                         className="flex transition-transform h-80 duration-500 w-screen md:w-auto"
                         style={{ transform: `translateX(-${currentIndex * 100 / itemsPerSlide}%)` }}
