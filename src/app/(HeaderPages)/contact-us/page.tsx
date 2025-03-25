@@ -1,3 +1,5 @@
+import Footer from "@/components/Home/Footer";
+
 export default function Page() {
     return (
         <div className="w-screen py-4 px-10 flex gap-10">
@@ -13,12 +15,15 @@ export default function Page() {
             </div>
 
             <div className="right bg-neutral-100 border border-neutral-400 rounded-xl grow p-10 flex flex-col justify-end">
-                <input type="text" className="text-lg w-full p-4 mb-4 bg-white border border-neutral-300 rounded"/>
-                <textarea className="text-lg w-full p-4 mb-4 bg-white border border-neutral-300 rounded" rows="5"></textarea>
+                <input type="text" placeholder="Your Name" className="text-lg w-full p-4 mb-4 bg-white border border-neutral-300 rounded"/>
+                <input type="text" placeholder="Phone Number" className="text-lg w-full p-4 mb-4 bg-white border border-neutral-300 rounded"/>
+                <textarea className="text-lg w-full p-4 mb-4 bg-white border border-neutral-300 rounded" rows={5} placeholder="Message"></textarea>
                 <div className="flex justify-center">
                     <button className="bg-primary text-white px-6 py-2 mt-4 rounded">Enquire Now</button>
                 </div>
             </div>
+
+            <Footer />
         </div>
     );
 }
