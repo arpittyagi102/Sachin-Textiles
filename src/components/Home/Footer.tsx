@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Footer() {
     return (
         <div className="w-full flex justify-center">
-            <div className="p-2 pb-8 md:p-8 flex flex-col md:flex-row justify-between relative max-w-5xl w-full">
+            <div className="p-2 pb-8 md:p-8 flex flex-col md:flex-row justify-between relative max-w-6xl w-full">
                 <div className="absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-screen bg-[#E8F7FC] -z-1"></div>
 
                 <div>

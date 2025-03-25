@@ -19,14 +19,14 @@ export default function Home() {
             <ExploreScroll />
             <Products items={PRODUCTS.slice(0, 8)} />
 
-            <div className="flex justify-center my-6">
+            <div className="flex justify-center mt-10">
                 <Link href="/products" className="bg-primary text-lg text-white py-2 px-4 rounded-lg">Shop Now</Link>
             </div>
 
-            <div className="Quality flex flex-col md:flex-row items-center m-8 md:m-20">
-                <Quality icon="/images/About/Quality/ap.png" name="Affordable Pricing" description="Lorem ipsum is a dummy or placeholder text commonly used in graphic design and publishing." className="md:border-r-4 border-neutral-300 " />
-                <Quality icon="/images/About/Quality/tq.png" name="Top Quality" description="Lorem ipsum is a dummy or placeholder text commonly used in graphic design and publishing." className="md:border-r-4 border-neutral-300 " />
-                <Quality icon="/images/About/Quality/ef.png" name="Eco Friendly" description="Lorem ipsum is a dummy or placeholder text commonly used in graphic design and publishing." />
+            <div className="Quality flex flex-col md:flex-row items-start m-8 md:m-10">
+                <Quality icon="/images/About/Quality/ap.png" name="Affordable Pricing" description="Premium-quality fabrics at competitive prices, making excellence accessible to all." className="md:border-r-4 border-neutral-300 " />
+                <Quality icon="/images/About/Quality/tq.png" name="Top Quality" description="Crafted with precision and durability to meet the highest industry standards." />
+                <Quality icon="/images/About/Quality/ef.png" name="Eco Friendly" description="Sustainable materials and responsible manufacturing for a greener future." className="md:border-l-4 border-neutral-300 "/>
             </div>
 
             <BestSellers />
@@ -46,15 +46,15 @@ function Quality({icon, name, description, className} : {icon: string, name: str
     return (
         <div className={`flex flex-col items-center ${className} my-4`}>
             <img src={icon} alt="icon" className="w-20 h-20 bg-cyan-300 p-2 rounded-lg" />
-            <h2 className="text-2xl md:text-3xl font-bold my-2 md:my-5">{name}</h2>
-            <p className="text-lg md:text-xl md:max-w-3/4 text-center text-neutral-500">{description}</p>
+            <h2 className="text-2xl md:text-2xl font-bold my-1 md:my-5">{name}</h2>
+            <p className="text-lg md:text-lg md:max-w-3/4 text-center text-neutral-500">{description}</p>
         </div>
     )
 }
 
 function Ratings() {
     return (
-        <div className="w-full flex justify-center my-20">
+        <div className="w-full flex justify-center my-10">
             <div className="flex flex-col md:flex-row rounded-3xl text-xl bg-[#DFEEE4]">
                 <div className="bg-[#6CAE82] px-16 py-10 w-full rounded-3xl text-white">
                     <p className="text-8xl font-bold">4.6</p>

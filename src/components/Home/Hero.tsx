@@ -3,10 +3,10 @@ import Image from 'next/image';
 export default function Hero({ items }: HeroProps) {
     return (
         <section className="mb-10 md:m-10 md:mx-14 relative">
-            <h1 className="text-2xl md:text-3xl font-bold mb-4">
+            <h1 className="text-xl md:text-3xl font-bold mt-4 md:mb-4">
                 Making Every Fabric Count
             </h1>
-            <p className="md:text-lg text-neutral-500 max-w-100">
+            <p className="text-sm md:text-lg text-neutral-500 max-w-100">
             At Sachin Textiles, we believe that every thread woven, every fabric crafted, and every textile produced should serve a purpose—bringing comfort, durability, and excellence to those who use it. 
             </p>
 

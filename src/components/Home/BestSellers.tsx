@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function BestSellers() {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const itemsPerSlide = 4; // Number of products to show at a time
+    const itemsPerSlide = 3; // Number of products to show at a time
 
     // Move to the next set of products
     const nextSlide = () => {
@@ -24,7 +24,7 @@ export default function BestSellers() {
     return (
         <section className="flex flex-col md:flex-row items-center relative py-4">
             <div className="absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-screen h-48 bg-rose-100 -z-1 bg-gradient-to-b from-green-300 to-white"></div>
-            <h1 className="text-4xl p-3 md:p-0 md:text-6xl font-bold text-green-800">Best Sellers</h1>
+            <h1 className="text-4xl p-3 md:p-0 md:text-6xl font-bold md:ml-4 text-green-800">Best Sellers</h1>
 
             {/* Carousel Container */}
             <div className="relative md:w-[80%]">
@@ -37,9 +37,9 @@ export default function BestSellers() {
                 </button>
 
                 {/* Product Carousel */}
-                <div className="flex overflow-scroll no-scrollbar">
+                <div className="flex overflow-scroll">
                     <div
-                        className="flex transition-transform duration-500 w-screen"
+                        className="flex transition-transform h-80 duration-500 w-screen md:w-auto"
                         style={{ transform: `translateX(-${currentIndex * 100 / itemsPerSlide}%)` }}
                     >
                         {someProducts.map((product, index) => (
@@ -63,7 +63,7 @@ export default function BestSellers() {
 function Product({ item }) {
     return (
         <Link
-            className="m-1 p-2 bg-white rounded-xl border border-neutral-300 md:w-56"
+            className="m-1 p-2 bg-white rounded-xl border border-neutral-300 flex flex-col justify-around md:w-56"
             href={`/products/${item?.Product_Name?.replace(/ /g, "-")}/${item.id}`}
         >
             <img

@@ -1,14 +1,18 @@
+import Link from "next/link"
+
 export default function MapSection() {
     return (
         <div className="MapSection flex flex-col md:flex-row gap-8 items-top justify-between my-8">
-            <div className="md:ml-8 flex-grow-1">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3496.859710137811!2d77.49795689999999!3d28.783443899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf575e12ff84f%3A0x239f381b97bfaef0!2sSachin%20textiles!5e0!3m2!1sen!2sin!4v1742885780189!5m2!1sen!2sin"
-                    className="rounded-2xl px-4 w-full h-56 md:w-auto md:h-full"
-                    style={{ border: 0 }}
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                />
+            <div className="md:ml-8 flex-grow-1 relative">
+                <Link href="https://maps.app.goo.gl/B9nW75wpWVnwCMsQ6" className="absolute top-0 bottom-0 left-0 right-0">
+                </Link>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3496.859710137811!2d77.49795689999999!3d28.783443899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf575e12ff84f%3A0x239f381b97bfaef0!2sSachin%20textiles!5e0!3m2!1sen!2sin!4v1742885780189!5m2!1sen!2sin"
+                        className="rounded-2xl px-4 w-full h-56 md:w-auto md:h-full"
+                        style={{ border: 0 }}
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    />
             </div>
 
             <div className=" flex flex-col justify-between mx-2 p-1 md:p-4 px-6 md:mx-12 bg-neutral-100">
