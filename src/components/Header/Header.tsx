@@ -56,9 +56,9 @@ export default function Header() {
             </div>
 
             {/* Search Section */}
-            <div className="w-full text-[18px] flex items-center justify-between border mt-2 border-neutral-300 rounded-full overflow-hidden order-3 md:order-2 md:w-auto">
+            <div className="w-full text-xs lg:text-[18px] flex items-stretch justify-between border mt-2 border-neutral-300 rounded-full overflow-hidden order-3 md:order-2 md:w-auto">
                 {/* Categories */}
-                <div className="bg-neutral-200 text-neutral-500 px-1 flex items-center lg:w-full lg:px-2 lg:py-3 ">
+                <div className="bg-neutral-200 text-neutral-500 px-1 py-1 flex items-center w-full lg:px-2 lg:py-3 ">
                     <select className="w-full text-center focus:outline-none" onChange={handleSelectCategory}>
                         <option value="All Products">All Products</option>
                         {CATEGORIES.map((category) => (

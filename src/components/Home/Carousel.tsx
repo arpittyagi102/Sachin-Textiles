@@ -21,14 +21,14 @@ export default function Carousel({ items }: CarouselProps) {
     }, [items.length]);
   
     return (
-      <div className="relative w-full overflow-x-clip">
+      <div className="relative w-full overflow-x-clip mb-[-8%]">
         <div
           className="flex transition-transform duration-300"
           style={{ transform: `translateX(-${currentIndex * 100}%)`, animationDelay: '4000' }}
         >
           {items.map((item, index) => (
             <div key={index} className="min-w-full">
-              <img src={item} alt={`Slide ${index}`} className={`${index!=0 && "mt-4"} w-full h-auto rounded-xl`}/>
+              <img src={item} alt={`Slide ${index}`} className={`${index!=0 && "mt-[2%]"} w-full h-auto rounded-xl`}/>
             </div>
           ))}
         </div>

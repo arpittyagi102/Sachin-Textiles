@@ -1,0 +1,27 @@
+.explore {
+    position: relative;
+}
+
+.scroll-container {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.scroll-content {
+    display: flex;
+    /*gap: 20px;  Space between items */
+    animation: infiniteScroll var(--scroll-speed, 50s) linear infinite;
+    white-space: nowrap;
+}
+
+
+/* Keyframe animation for infinite scroll */
+@keyframes infiniteScroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-300%); /* Adjust based on the duplicated content */
+    }
+}

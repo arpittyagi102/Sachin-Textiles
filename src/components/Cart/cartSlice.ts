@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from '@reduxjs/toolkit'
 import type { RootState } from '@/lib/store'
 import type { ProductInCart } from "@/lib/types";
+import toast from "react-hot-toast";
 
 const initialState: ProductInCart[] = []
 
@@ -15,6 +16,7 @@ export const cartSlice = createSlice({
                 item.quantity ++;
             } else {
                 state.push({ ...action.payload, quantity: 1 })
+                toast.success("Added to cart")
             }
         },
         removeFromCart: (state, action: PayloadAction<string>) => {
@@ -23,6 +25,7 @@ export const cartSlice = createSlice({
                 state[index].quantity --;
             } else {
                 state.splice(index, 1);
+                toast.success("Removed from cart")
             }
         },
         clearCart: (/*state*/) => {
