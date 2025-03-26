@@ -8,11 +8,11 @@ export default function Carousel({ items }: CarouselProps) {
       setCurrentIndex((prev) => (prev + 1) % items.length);
     };
   
-    const prevSlide = () => {
-      setCurrentIndex((prev) =>
-        prev === 0 ? items.length - 1 : prev - 1
-      );
-    };
+    // const prevSlide = () => {
+    //   setCurrentIndex((prev) =>
+    //     prev === 0 ? items.length - 1 : prev - 1
+    //   );
+    // };
 
     useEffect(() => {
         const interval = setInterval(nextSlide, 4000); 

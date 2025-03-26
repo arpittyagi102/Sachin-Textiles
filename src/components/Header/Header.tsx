@@ -47,7 +47,7 @@ export default function Header() {
                         </g>
                     </svg>
 
-                    { cart.length > 0 && <span className="absolute right-0 top-0 bg-orange-500 text-white w-5 h-5 text-xs flex items-center justify-center rounded-full">{cart.length}</span> }
+                    { cart.length > 0 && <span className="absolute -right-1 md:right-0 -top-1 md:top-0 bg-orange-500 text-white w-3 lg:w-5 lg:h-5 text-xs flex items-center justify-center rounded-full">{cart.length}</span> }
                 </Link>
                 <button className="hidden md:block bg-primary ml-3 px-4 py-2 xl:px-6 xl:py-2 text-white rounded-lg">
                     Shop Now
