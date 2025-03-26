@@ -26,6 +26,11 @@ export default function Header() {
         //dispatch(categoryChange(e.target.value))
     }
 
+    function handleChangePath(path: string) {
+        setIsNavOpen(false);
+        router.push(path);
+    }
+
     return (<>
         <header className="mx-4 flex items-center justify-between flex-wrap md:flex-nowrap lg:px-4 pb-1 lg:py-2 bg-white xl:text-xl">
             {/* Logo */}
@@ -87,9 +92,9 @@ export default function Header() {
             <ul className={`${isNavOpen ? "flex" : "hidden"} md:flex flex-col md:flex-row space-x-3 w-full `}>
                 {NAV_ITEMS.map((item, index) => (
                     <li key={index}>
-                        <Link href={item.path} className={`w-full text-[18px] block px-2 py-1 md:w-auto md:px-6 md:py-2 rounded-lg border-2 border-white ${route === item.path ? "bg-primary text-white" : "text-neutral-700"} hover:border-primary`}>
+                        <button onClick={() => handleChangePath(item.path)} className={`w-full text-[18px] text-left block px-2 py-1 md:w-auto md:px-6 md:py-2 rounded-lg cursor-pointer border-2 border-white ${route === item.path ? "bg-primary text-white" : "text-neutral-700"} hover:border-primary`}>
                             {item.name}
-                        </Link>
+                        </button>
                     </li>
                 ))}
             </ul>

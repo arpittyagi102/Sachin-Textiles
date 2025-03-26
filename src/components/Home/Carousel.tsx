@@ -28,12 +28,12 @@ export default function Carousel({ items }: CarouselProps) {
         >
           {items.map((item, index) => (
             <div key={index} className="min-w-full">
-              <img src={item} alt={`Slide ${index}`} className={`${index!=0 && "mt-[2%]"} w-full h-auto rounded-xl`}/>
+              <img src={item} alt={`Slide ${index}`} className={`${index!=0 && "mt-[2%]"} w-full h-auto`}/>
             </div>
           ))}
         </div>
 
-        <button onClick={prevSlide} className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded opacity-50">
+        {/* <button onClick={prevSlide} className="absolute left-3 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded opacity-50">
             <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="inherit" className="stroke-current transform rotate-180">
                 <g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                 <g id="SVGRepo_iconCarrier"> 
@@ -49,7 +49,7 @@ export default function Carousel({ items }: CarouselProps) {
                     <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="inherit" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> 
                 </g>
             </svg>
-        </button>
+        </button> */}
 
         {/* <div className="overlay absolute right-0 -top-8">
             <Image src="/images/overlay.png" alt="overlay" height="900" width="900"/>

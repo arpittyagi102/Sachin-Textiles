@@ -48,9 +48,10 @@ export default function Footer() {
                     <h1 className="text-2xl font-semibold text-primary mt-8">Powered by</h1>
                     <img src="/images/Home/Footer/Verzon.png" alt="Verzon" className="h-16 mx-auto md:mx-0" height={24}/>
                 </div>
-
-                    
-                <p className="text-xs absolute bottom-1 md:left-1/2 transform md:-translate-x-1/2 text-center">© 2025 Sachin Textiles. All rights reserved.</p>
+ 
+                <div className="text-xs absolute bottom-1 left-1/2 transform -translate-x-1/2 w-full text-center">
+                    <p>© 2025 Sachin Textiles. All rights reserved.</p>
+                </div>
             </div>
         </div>
     )

@@ -7,7 +7,7 @@ export default function Hero({ items }: HeroProps) {
                 Making Every Fabric Count
             </h1>
             <p className="text-xs md:text-lg text-neutral-500 max-w-100">
-            At Sachin Textiles, we believe that every thread woven, every fabric crafted, and every textile produced should serve a purpose—bringing comfort, durability, and excellence to those who use it. 
+                At Sachin Textiles, we believe that every thread woven, every fabric crafted, and every textile produced should serve a purpose—bringing comfort, durability, and excellence to those who use it. 
             </p>
 
             <div className="flex flex-wrap justify-between mt-6 md:gap-10">
