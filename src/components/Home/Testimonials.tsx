@@ -2,9 +2,9 @@ export default function Testimonials(){
     return (
         <section className="mb-8">
             <h1 className="text-2xl md:text-4xl font-bold text-center">What Clients Say?</h1>
-            <div className="flex flex-col md:flex-row justify-center gap-10 mt-6">
+            <div className="flex flex-col md:flex-row justify-center gap-10 mt-6 mx-4">
                 {DATA.map((item, index) => (
-                    <div key={index} className="md:w-[27%] bg-[#AFC9D2] p-5 rounded-lg">
+                    <div key={index} className="md:w-[27%] bg-[#AFC9D2] p-3 md:p-5 rounded-lg">
                         <div className="flex">
                             {[...Array(Math.floor(item.rating))].map((_, index) => (
                                 <svg key={index} width="20" height="20" className="mr-1 mt-1" viewBox="0 0 35 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,7 +19,7 @@ export default function Testimonials(){
                             )}
                         </div>
 
-                        <p className="text-black mt-5 text-[18px] leading-6 ">{item.text}</p>
+                        <p className="text-sm leading-4 text-black mt-3 md:mt-5 md:text-[18px] md:leading-6 ">{item.text}</p>
                         <div className="flex mt-5 bg-opacity-50 text-center items-center gap-3">
                             <img src={item.image} alt={item.name} height={50} width={50} className="aspect-square object-cover rounded-xl" />
                             <h3 className="font-bold text-white text-lg">{item.name}</h3>

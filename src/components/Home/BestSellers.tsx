@@ -39,7 +39,7 @@ export default function BestSellers() {
                 {/* Product Carousel */}
                 <div className="flex overflow-scroll no-scrollbar">
                     <div
-                        className="flex transition-transform h-80 duration-500 w-screen md:w-auto"
+                        className="flex transition-transform h-48 md:h-80 duration-500 w-screen md:w-auto"
                         style={{ transform: `translateX(-${currentIndex * 100 / itemsPerSlide}%)` }}
                     >
                         {someProducts.map((product, index) => (

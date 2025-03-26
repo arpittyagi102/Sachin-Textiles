@@ -54,7 +54,7 @@ const ExploreScroll = () => {
                     key={category.name}
                     src={category.illustration}
                     alt={category.name}
-                    className="w-[18%] cursor-pointer"
+                    className="w-[48%] sm:w-[31%] md:w-[18%] cursor-pointer"
                     onClick={() => handleImageClick(category.name)} // Handle click
                 />
             ))}

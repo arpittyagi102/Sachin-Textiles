@@ -27,7 +27,7 @@ export default function Header() {
     }
 
     return (<>
-        <header className="flex items-center justify-between flex-wrap md:flex-nowrap lg:px-4 lg:py-2 bg-white xl:text-xl">
+        <header className="mx-4 flex items-center justify-between flex-wrap md:flex-nowrap lg:px-4 pb-1 lg:py-2 bg-white xl:text-xl">
             {/* Logo */}
             <Image src="/images/Logo.webp" alt="Logo" width={200} height={200} className="w-30 lg:40 xl:w-50"/>
 
