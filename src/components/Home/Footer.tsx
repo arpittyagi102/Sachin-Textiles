@@ -46,7 +46,7 @@ export default function Footer() {
                     <Link href="tel:+9108272865740" className="block">+91 082728 65740</Link>
 
                     <h1 className="text-2xl flex font-semibold text-primary mt-8">Powered by</h1>
-                    <img src="/images/Home/Footer/verzon.png" alt="Verzon" className="h-16" height={24}/>
+                    <img src="/images/Home/Footer/Verzon.png" alt="Verzon" className="h-16" height={24}/>
                 </div>
 
                 <p className="text-xs absolute bottom-1 md:left-1/2 transform md:-translate-x-1/2">© 2025 Sachin Textiles. All rights reserved.</p>

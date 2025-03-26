@@ -33,7 +33,7 @@ function Hero() {
     return (<>
         <section className="flex md:flex-row flex-col pt-10 mb-10">   
             <div className="left md:w-1/2 px-[8%] ">
-               <img src="/images/about/about-hero.png" className="grayscale" alt="hero" />
+               <img src="/images/About/about-hero.png" className="grayscale" alt="hero" />
             </div>
             
             <div className="right md:w-1/2 flex flex-col items-center">
@@ -42,7 +42,7 @@ function Hero() {
                         <path d="M0.666667 14C0.666667 21.3638 6.6362 27.3333 14 27.3333C21.3638 27.3333 27.3333 21.3638 27.3333 14C27.3333 6.6362 21.3638 0.666667 14 0.666667C6.6362 0.666667 0.666667 6.6362 0.666667 14ZM0.666667 159C0.666667 166.364 6.6362 172.333 14 172.333C21.3638 172.333 27.3333 166.364 27.3333 159C27.3333 151.636 21.3638 145.667 14 145.667C6.6362 145.667 0.666667 151.636 0.666667 159ZM11.5 14V159H16.5V14H11.5Z" fill="black"/>
                     </svg>
                     <div className="mx-4 py-5 flex">
-                        <Image src="/images/about/fabric.png" className="h-24 w-24" alt="hero" width={96} height={24} />
+                        <Image src="/images/About/fabric.png" className="h-24 w-24" alt="hero" width={96} height={24} />
                         <p className=" ml-4 text-neutral-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in id et ex aut itaque soluta quisquam. Perspiciatis rem iusto commodi eveniet quos dolor, possimus natus voluptas quam nostrum quia.</p> 
                     </div>
                 </div>
