@@ -70,7 +70,7 @@ const CAROUSEL_IMAGES = [
 ]
     
 const HERO_CONTENT = [{
-        name: "Healthcare textiles",
+        name: "Healthcare Textiles",
         image: "/images/hc1.png",
     }, {
         name: "Medical Wears",

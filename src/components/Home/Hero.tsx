@@ -12,9 +12,9 @@ export default function Hero({ items }: HeroProps) {
 
             <div className="flex flex-wrap justify-between mt-6 md:gap-10">
                 {items.map((item: HeroItem, index: number) => (
-                    <div key={index} className='w-[27%]'>
+                    <div key={index} className='w-[27%] flex flex-col items-center'>
                         <Image src={item.image} alt={item.name} height="300" width="300" className="aspect-square object-cover rounded-xl" />
-                        <div className="p-2 md:p-4 bg-opacity-50 text-center">
+                        <div className="px-0 md:px-4 p-2 md:p-4 bg-opacity-50 text-center">
                             <h3 className="md:text-xl font-bold">{item.name}</h3>
                         </div>
                     </div>

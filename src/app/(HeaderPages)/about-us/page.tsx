@@ -43,11 +43,11 @@ function Hero() {
                     </svg>
                     <div className="ml-0 mx-2 py-5 flex items-center">
                         <Image src="/images/About/fabric.png" className="h-24 w-24" alt="hero" width={96} height={24} />
-                        <p className="text-xs md:text-md ml-3 text-neutral-500 w-50 md:w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in id et ex aut itaque soluta quisquam. Perspiciatis rem iusto commodi eveniet quos dolor, possimus natus voluptas quam nostrum quia.</p> 
+                        <p className="text-xs md:text-md ml-3 text-neutral-500 w-50 md:w-75">We use advanced manufacturing techniques and superior raw materials to ensure fabrics that are breathable, skin-friendly, and long-lasting. Whether it’s for disposable healthcare apparel or specialized textile solutions, our commitment to quality, sustainability, and innovation</p> 
                     </div>
                 </div>
-                <h1 className="text-2xl md:text-6xl text-center font-bold my-4 md:my-6">High Quality Tagline with specification</h1>
-                <p className=" md:text-xl text-center md:max-w-2/3 my-1 md:my-2 text-neutral-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nostrum qui culpa nihil. Modi libero voluptate sapiente architecto et debitis optio id, amet voluptas consectetur laudantium at, dolor</p>
+                <h1 className="text-2xl md:text-6xl text-center font-bold my-4 md:my-6">Weaving Quality, Delivering Trust.</h1>
+                <p className=" md:text-xl mx-4 text-center md:max-w-2/3 my-1 md:my-2 text-neutral-500">With a focus on innovation, durability, and sustainability, we provide reliable textile solutions for medical, industrial, and commercial needs. Our dedication to excellence and ethical manufacturing ensures that every product we create enhances safety, comfort, and efficiency.</p>
                 <button className="bg-primary md:text-xl text-white px-3 py-1 md:px-4 md:py-2 rounded nd:mt-8">Learn More</button>
             </div>
         </section>
@@ -90,27 +90,33 @@ function AboutSection() {
             <div className="md:w-1/2">
                 <p className="text-xl">About Us</p>
                 <h1 className="text-2xl md:text-4xl font-bold my-3 md:my-5">Making Every Fiber Count</h1>
-                <p className="text-md md:text-xl text-neutral-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores in id et ex aut itaque soluta quisquam. Perspiciatis rem iusto commodi eveniet quos dolor, possimus natus voluptas quam nostrum quia.</p>
+                <p className="text-md md:text-xl text-neutral-500">At Sachin Textiles, we believe that every thread woven, every fabric crafted, and every textile produced should serve a purpose—bringing comfort, durability, and excellence to those who use it.</p>
 
                 <div className="flex gap-2">
-                    <div className="h-36 md:h-48 w-48 my-2 rounded-xl md:rounded-3xl p-3 md:p-6 text-lg md:text-xl text-white bg-cyan-800">
-                        <svg className="w-8 md:w-12 h-8 md:h-12 mb-2" viewBox="0 0 58 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className="h-36 md:h-48 w-48 my-2 rounded-xl md:rounded-3xl p-2 md:p-6 text-lg md:text-xl text-white bg-cyan-800">
+                        <svg className="w-8 md:w-12 h-8 md:h-12 mb-0 md:mb-2" viewBox="0 0 58 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="58" height="57" rx="6" fill="#71D3D9"/>
                             <path d="M23.625 16.2476C25.2013 15.7468 26.846 15.4946 28.5 15.5001C35.2958 15.5001 39.9205 19.5626 42.6781 23.1441C44.0594 24.9413 44.75 25.8367 44.75 28.5001C44.75 31.1651 44.0594 32.0605 42.6781 33.8561C39.9205 37.4376 35.2958 41.5001 28.5 41.5001C21.7042 41.5001 17.0795 37.4376 14.3219 33.8561C12.9406 32.0621 12.25 31.1635 12.25 28.5001C12.25 25.8351 12.9406 24.9397 14.3219 23.1441C15.1644 22.0437 16.1025 21.0197 17.125 20.0842" stroke="black" strokeWidth="1.5" strokeLinecap="round"/>
                             <path d="M33.375 28.5C33.375 29.7929 32.8614 31.0329 31.9471 31.9471C31.0329 32.8614 29.7929 33.375 28.5 33.375C27.2071 33.375 25.9671 32.8614 25.0529 31.9471C24.1386 31.0329 23.625 29.7929 23.625 28.5C23.625 27.2071 24.1386 25.9671 25.0529 25.0529C25.9671 24.1386 27.2071 23.625 28.5 23.625C29.7929 23.625 31.0329 24.1386 31.9471 25.0529C32.8614 25.9671 33.375 27.2071 33.375 28.5Z" stroke="black" strokeWidth="1.5"/>
                         </svg>
 
-                        Our Vision
+                        <p className="text-md">Our Vision</p>
+                        <p className="text-xs">
+                        To be a leader in high-quality fabric production and disposable healthcare apparel.
+                        </p>
                     </div>
 
-                    <div className="h-36 md:h-48 w-48 my-2 rounded-xl md:rounded-3xl p-3 md:p-6 text-lg md:text-xl bg-[#71D3D9] text-cyan-800">
-                        <svg className="w-8 md:w-12 h-8 md:h-12 mb-2" viewBox="0 0 58 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div className="h-36 md:h-48 w-48 my-2 rounded-xl md:rounded-3xl p-2 md:p-6 text-lg md:text-xl bg-[#71D3D9] text-cyan-800">
+                        <svg className="w-8 md:w-12 h-8 md:h-12 mb-0 md:mb-2" viewBox="0 0 58 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="58" height="57" rx="6" fill="#16627B"/>
                             <path d="M11.6665 28.1667C15.5299 28.6259 19.1264 30.3714 21.8775 33.1224C24.6285 35.8735 26.374 39.47 26.8332 43.3334C28.7483 42.2293 30.3503 40.655 31.4877 38.7594C32.625 36.8638 33.2602 34.7095 33.3332 32.5001C36.9712 31.2203 40.1481 28.8904 42.4621 25.8051C44.7761 22.7198 46.1232 19.0176 46.3332 15.1667C46.3332 13.4428 45.6484 11.7895 44.4294 10.5706C43.2104 9.35157 41.5571 8.66675 39.8332 8.66675C35.9823 8.87671 32.2801 10.2239 29.1948 12.5378C26.1095 14.8518 23.7797 18.0287 22.4998 21.6667C20.2904 21.7397 18.1361 22.3749 16.2405 23.5123C14.3449 24.6496 12.7706 26.2516 11.6665 28.1667Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                             <path d="M18.1666 30.3335C15.9116 31.6066 14.0882 33.5241 12.9301 35.8402C11.772 38.1564 11.332 40.7657 11.6666 43.3335C14.2344 43.668 16.8437 43.2281 19.1598 42.07C21.476 40.9119 23.3935 39.0885 24.6666 36.8335M33.3332 19.5002C33.3332 20.0748 33.5615 20.6259 33.9678 21.0322C34.3742 21.4386 34.9253 21.6668 35.4999 21.6668C36.0745 21.6668 36.6256 21.4386 37.032 21.0322C37.4383 20.6259 37.6666 20.0748 37.6666 19.5002C37.6666 18.9255 37.4383 18.3744 37.032 17.9681C36.6256 17.5618 36.0745 17.3335 35.4999 17.3335C34.9253 17.3335 34.3742 17.5618 33.9678 17.9681C33.5615 18.3744 33.3332 18.9255 33.3332 19.5002Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
 
                         Our Mission
+                        <p className="text-xs">
+                            Our mission is to provide highest industry standards.                        
+                        </p>
                     </div>
                 </div>
             </div>

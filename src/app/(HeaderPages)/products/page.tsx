@@ -6,6 +6,7 @@ import { Suspense, useState, useEffect } from "react";
 import { useSelector } from "react-redux";
 import type { RootState } from "@/lib/store";
 import { useSearchParams } from "next/navigation";
+import Footer from "@/components/Home/Footer";
 
 // Wrapping the Page component itself with Suspense for the useSearchParams
 export default function Page() {
@@ -52,6 +53,7 @@ function ProductPage() {
                 <Categories items={CATEGORIES} />
             ) : null}
             <Products items={filteredProducts} />
+            <Footer />
         </>
     );
 }

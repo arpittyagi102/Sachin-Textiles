@@ -11,10 +11,10 @@ export default function Footer() {
                 <div className="text-center md:text-left">
                     <h1 className="text-2xl font-semibold text-primary">Quick Links</h1>
                     <ul className="md:list-disc ml-4">
-                        <li>Home</li>
-                        <li>Products</li>
-                        <li>About Us</li>
-                        <li>Contact Us</li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/products">Products</Link></li>
+                        <li><Link href="/about-us">About Us</Link></li>
+                        <li><Link href="/contact-us">Contact Us</Link></li>
                     </ul>
 
                     <img src="/images/Home/Footer/trusted-seller.png" alt="Trusted Seller" className="mt-4 h-12 mx-auto md:mx-0" />
