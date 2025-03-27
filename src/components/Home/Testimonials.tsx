@@ -22,7 +22,7 @@ export default function Testimonials(){
                         <p className="text-sm leading-4 text-black mt-3 md:mt-5 md:text-[18px] md:leading-6 ">{item.text}</p>
                         <div className="flex mt-5 bg-opacity-50 text-center items-center gap-3">
                             <img src={item.image} alt={item.name} height={50} width={50} className="aspect-square object-cover rounded-xl" />
-                            <h3 className="font-bold text-white text-lg">{item.name}</h3>
+                            <h3 className="font-bold text-white text-xl">{item.name}</h3>
                         </div>
                     </div>
                 ))}

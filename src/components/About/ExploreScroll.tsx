@@ -30,14 +30,14 @@ const ExploreScroll = () => {
                                 key={index}
                                 src={item}
                                 alt={item}
-                                className="w-[20%] cursor-pointer rounded-2xl"
+                                className="w-[48%] sm:w-[31%] md:w-[20%] cursor-pointer rounded-2xl"
                             />
                         ))}
                     </div>
                 </div>
 
                 <div className="w-full flex justify-center mt-4">
-                    <Link href="/products" className="bg-primary text-white px-6 py-2 mt-4 rounded-lg text-lg">
+                    <Link href="/products" className="bg-primary text-white px-3 py-1 md:px-4 md:py-2 mt-4 rounded-lg md:text-lg">
                         Explore More
                     </Link>
                 </div>
