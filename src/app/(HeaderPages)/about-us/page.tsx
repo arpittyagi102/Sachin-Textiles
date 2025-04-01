@@ -43,7 +43,7 @@ function Hero() {
                     </svg>
                     <div className="ml-0 mx-2 py-5 flex items-center">
                         <Image src="/images/About/fabric.png" className="h-24 w-24" alt="hero" width={96} height={24} />
-                        <p className="text-xs md:text-md ml-3 text-neutral-500 w-50 md:w-75">We use advanced manufacturing techniques and superior raw materials to ensure fabrics that are breathable, skin-friendly, and long-lasting. Whether it’s for disposable healthcare apparel or specialized textile solutions, our commitment to quality, sustainability, and innovation</p> 
+                        <p className="text-xs md:text-md ml-3 text-neutral-500 w-50 md:w-75">We use advanced manufacturing techniques and superior raw materials to ensure fabrics that are breathable, skin-friendly, and long-lasting. Whether it's for disposable healthcare apparel or specialized textile solutions, our commitment to quality, sustainability, and innovation</p> 
                     </div>
                 </div>
                 <h1 className="text-2xl md:text-6xl text-center font-bold my-4 md:my-6">Weaving Quality, Delivering Trust.</h1>
@@ -121,7 +121,7 @@ function AboutSection() {
                 </div>
             </div>
 
-            <div className="md:w-1/2 h-96 bg-neutral-300 rounded-2xl relative">
+            <div className="md:w-1/2 h-96 rounded-2xl relative" style={{backgroundImage: "url('/images/About/main.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}>
                 <div className="flex flex-col items-center absolute m-2 rounded-3xl p-4 px-8 text-xl text-white bg-cyan-800 -bottom-16 md:-left-12">
                     <svg viewBox="0 0 81 81" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 md:h-24 md:w-24">
                         <path d="M40.5 3.375L10.125 16.875V37.125C10.125 55.8563 23.085 73.3725 40.5 77.625C57.915 73.3725 70.875 55.8563 70.875 37.125V16.875L40.5 3.375ZM50.895 54L40.5 47.7562L30.1388 54L32.8725 42.1875L23.7263 34.29L35.8087 33.2438L40.5 22.1063L45.1912 33.21L57.2737 34.2562L48.1275 42.1875L50.895 54Z" fill="white"/>

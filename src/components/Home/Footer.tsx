@@ -42,7 +42,7 @@ export default function Footer() {
 
                 <div className="mt-8 md:mt-0 text-center md:text-right">
                     <h1 className="text-2xl font-semibold text-primary">Contact Info</h1>
-                    <Link href="mailto:sachin@gmail.com" className="block my-2 ">sachin@gmail.com</Link>
+                    <Link href="mailto:sachingoyal10021989@gmail.com​" className="block my-2 ">sachingoyal10021989@gmail.com​</Link>
                     <Link href="tel:+9108272865740" className="block">+91 082728 65740</Link>
 
                     <h1 className="text-2xl font-semibold text-primary mt-8">Powered by</h1>
