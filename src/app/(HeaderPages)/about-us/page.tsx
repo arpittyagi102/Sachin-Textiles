@@ -43,7 +43,7 @@ function Hero() {
                     </svg>
                     <div className="ml-0 mx-2 py-5 flex items-center">
                         <Image src="/images/About/fabric.png" className="h-24 w-24" alt="hero" width={96} height={24} />
-                        <p className="text-xs md:text-md ml-3 text-neutral-500 w-50 md:w-75">We use advanced manufacturing techniques and superior raw materials to ensure fabrics that are breathable, skin-friendly, and long-lasting. Whether it's for disposable healthcare apparel or specialized textile solutions, our commitment to quality, sustainability, and innovation</p> 
+                        <p className="text-xs md:text-md ml-3 text-neutral-500 w-50 md:w-75">We use advanced manufacturing techniques and superior raw materials to ensure fabrics that are breathable, skin-friendly, and long-lasting. Whether it&apos;s for disposable healthcare apparel or specialized textile solutions, our commitment to quality, sustainability, and innovation</p> 
                     </div>
                 </div>
                 <h1 className="text-2xl md:text-6xl text-center font-bold my-4 md:my-6">Weaving Quality, Delivering Trust.</h1>
