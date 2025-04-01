@@ -11,7 +11,7 @@ export const cartSlice = createSlice({
     initialState,
     reducers: {
         addToCart: (state, action: PayloadAction<ProductInCart>) => {
-            const item = state.find(item => item.id === action.payload.id)
+            const item = state.find(item => item.id === action.payload.id && item.colorIndexSelected === action.payload.colorIndexSelected)
             if (item) {
                 item.quantity ++;
             } else {
@@ -19,8 +19,8 @@ export const cartSlice = createSlice({
                 toast.success("Added to cart")
             }
         },
-        removeFromCart: (state, action: PayloadAction<string>) => {
-            const index = state.findIndex(item => item.id === action.payload)
+        removeFromCart: (state, action: PayloadAction<ProductInCart>) => {
+            const index = state.findIndex(item => item.id === action.payload.id && item.colorIndexSelected === action.payload.colorIndexSelected)
             if (state[index].quantity > 1) {
                 state[index].quantity --;
             } else {

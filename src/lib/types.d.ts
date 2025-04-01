@@ -5,6 +5,7 @@ type Product = {
   Description: string;
   Feature?: string | number; // todo: Fix the type here
   Price: string;
+  Price_Value: number;
   Gender: string;
   Style: string;
   Material: string;
@@ -28,7 +29,7 @@ type Product = {
 
 interface ProductInCart extends Product {
   quantity: number;
-  colorSelected?: string;
+  colorIndexSelected?: number;
 }
 
 export type { Product, ProductInCart };

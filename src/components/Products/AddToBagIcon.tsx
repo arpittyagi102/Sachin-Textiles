@@ -1,16 +1,17 @@
 "use client"
 import { useDispatch } from "react-redux"
 import { addToCart } from "@/components/Cart/cartSlice"; 
+import type { Product } from '@/lib/types'
 import { useState } from "react";
 
-export default function AddToBag({ product, addClassName }) {
+export default function AddToBag({ product, addClassName } : { product: Product, addClassName?: string }) {
     const dispatch = useDispatch();
     const [addedToCart, setAddedToCart] = useState(false);
 
     const handleAddToCart = (e) => {
         e.preventDefault();
         setAddedToCart(true)
-        dispatch(addToCart(product));
+        dispatch(addToCart({...product, colorIndexSelected:0, quantity: 1}));
     }
 
     return (

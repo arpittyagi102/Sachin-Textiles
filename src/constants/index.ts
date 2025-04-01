@@ -1,10 +1,6 @@
 import PRODUCTS from "./products.json";
 
 const CATEGORIES = [{
-        "name": "Garbage bag",
-        "image": "/images/Categories/Face Mask.webp",
-        "illustration": "/images/Home/dh6.png"
-    },{
         "name": "Sofa Astar Fabric",
         "image": "/images/Categories/Astar Fabric.webp",
         "illustration": "/images/Home/dh3.png",

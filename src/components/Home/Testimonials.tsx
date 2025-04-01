@@ -1,6 +1,6 @@
 export default function Testimonials(){
     return (
-        <section className="mb-8">
+        <section>
             <h1 className="text-2xl md:text-4xl font-bold text-center">What Clients Say?</h1>
             <div className="flex flex-col md:flex-row justify-center gap-10 mt-6 mx-4">
                 {DATA.map((item, index) => (

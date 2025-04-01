@@ -1,67 +1,5 @@
 [
     {
-        "Product_Category": "Garbage bag",
-        "Images": [
-            "trans_green_gb.webp",
-            "trans_black_gb.webp",
-            "trans_white_gb.webp",
-            "transblue_gb.webp",
-            "transpink_gb (1).webp"
-        ],
-        "Product_Name": "Clear Garbage bag",
-        "Description": "We have comprehensive range of high quality Trash Bags that finds application in various areas. Our range of Trash Bags is widely appreciated by the clients, owing to its eco-friendliness and long lasting nature. The Trash Bags offered by us have high endurance and are light weighted. Draw string trash bags that we manufacture can be availed in various sizes.",
-        "Feature": "recyclable",
-        "Price": "",
-        "Gender": "",
-        "Style": "",
-        "Material": "Plastic",
-        "Pattern": "",
-        "Color": "green,black,white,blue,pink",
-        "Sleeve_Style": "",
-        "Size": "small, medium, large, Xl",
-        "type": "",
-        "handeling": "open top",
-        "Waist_Pocket": "",
-        "Texture": "",
-        "Strength": "",
-        "Filling": "",
-        "Reusable": "",
-        "Disposable": "",
-        "Shape": "",
-        "Washable": "",
-        "id": "0001"
-    },
-    {
-        "Product_Category": "Garbage bag",
-        "Images": [
-            "black_garbage_bag.webp",
-            "white_garbage_bag.webp",
-            "green_garbage_bag.webp"
-        ],
-        "Product_Name": "Garbage bag",
-        "Description": "We have comprehensive range of high quality Trash Bags that finds application in various areas. Our range of Trash Bags is widely appreciated by the clients, owing to its eco-friendliness and long lasting nature. The Trash Bags offered by us have high endurance and are light weighted. Draw string trash bags that we manufacture can be availed in various sizes.",
-        "Feature": "recyclable",
-        "Price": "",
-        "Gender": "",
-        "Style": "",
-        "Material": "Plastic",
-        "Pattern": "",
-        "Color": "black,white,green",
-        "Sleeve_Style": "",
-        "Size": "small, medium, large, Xl",
-        "type": "",
-        "handeling": "open top",
-        "Waist_Pocket": "",
-        "Texture": "",
-        "Strength": "",
-        "Filling": "",
-        "Reusable": "",
-        "Disposable": "",
-        "Shape": "",
-        "Washable": "",
-        "id": "0002"
-    },
-    {
         "Product_Category": "Sofa Astar Fabric",
         "Images": [
             "brown_sofa_astar_fab.webp",
@@ -88,7 +26,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0003"
+        "id": "0003",
+        "Price_Value": 25
     },
     {
         "Product_Category": "Cotton Duster",
@@ -117,7 +56,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0004"
+        "id": "0004",
+        "Price_Value": 15
     },
     {
         "Product_Category": "Cotton Duster",
@@ -146,7 +86,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0005"
+        "id": "0005",
+        "Price_Value": 25
     },
     {
         "Product_Category": "Checks Fabric",
@@ -175,7 +116,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0006"
+        "id": "0006",
+        "Price_Value": 25
     },
     {
         "Product_Category": "Kitchen Apron",
@@ -205,7 +147,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0007"
+        "id": "0007",
+        "Price_Value": 80
     },
     {
         "Product_Category": "Bed Comforter",
@@ -234,7 +177,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0008"
+        "id": "0008",
+        "Price_Value": 800
     },
     {
         "Product_Category": "PPE Kit",
@@ -262,7 +206,8 @@
         "Disposable": "Yes",
         "Shape": "",
         "Washable": "",
-        "id": "0009"
+        "id": "0009",
+        "Price_Value": 200
     },
     {
         "Product_Category": "PPE Kit",
@@ -290,7 +235,8 @@
         "Disposable": "Yes",
         "Shape": "",
         "Washable": "",
-        "id": "0010"
+        "id": "0010",
+        "Price_Value": 300
     },
     {
         "Product_Category": "Hospital Head Cap",
@@ -318,7 +264,8 @@
         "Disposable": "Yes",
         "Shape": "Circle",
         "Washable": "Yes",
-        "id": "0011"
+        "id": "0011",
+        "Price_Value": 13
     },
     {
         "Product_Category": "Hospital Head Cap",
@@ -346,7 +293,8 @@
         "Disposable": "Yes",
         "Shape": "Circle",
         "Washable": "",
-        "id": "0012"
+        "id": "0012",
+        "Price_Value": 2
     },
     {
         "Product_Category": "Hospital Head Cap",
@@ -374,7 +322,8 @@
         "Disposable": "Yes",
         "Shape": "Circle",
         "Washable": "",
-        "id": "0013"
+        "id": "0013",
+        "Price_Value": 2
     },
     {
         "Product_Category": "Casement Fabric",
@@ -405,7 +354,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0014"
+        "id": "0014",
+        "Price_Value": 65
     },
     {
         "Product_Category": "Casement Fabric",
@@ -433,7 +383,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0015"
+        "id": "0015",
+        "Price_Value": 64
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -461,7 +412,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0016"
+        "id": "0016",
+        "Price_Value": 180
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -489,7 +441,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0017"
+        "id": "0017",
+        "Price_Value": 230
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -517,7 +470,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Dry Clean",
-        "id": "0018"
+        "id": "0018",
+        "Price_Value": 380
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -545,7 +499,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0019"
+        "id": "0019",
+        "Price_Value": 240
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -573,7 +528,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0020"
+        "id": "0020",
+        "Price_Value": 28
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -601,7 +557,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0021"
+        "id": "0021",
+        "Price_Value": 140
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -631,7 +588,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0022"
+        "id": "0022",
+        "Price_Value": 150
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -661,7 +619,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0023"
+        "id": "0023",
+        "Price_Value": 240
     },
     {
         "Product_Category": "Face Mask",
@@ -696,7 +655,8 @@
         "Disposable": "Yes",
         "Shape": "",
         "Washable": "Yes",
-        "id": "0024"
+        "id": "0024",
+        "Price_Value": 10
     },
     {
         "Product_Category": "Face Mask",
@@ -724,7 +684,8 @@
         "Disposable": "Yes",
         "Shape": "",
         "Washable": "No",
-        "id": "0025"
+        "id": "0025",
+        "Price_Value": 10
     },
     {
         "Product_Category": "Face Mask",
@@ -752,7 +713,8 @@
         "Disposable": "Yes",
         "Shape": "",
         "Washable": "",
-        "id": "0026"
+        "id": "0026",
+        "Price_Value": 12
     },
     {
         "Product_Category": "Face Mask",
@@ -780,7 +742,8 @@
         "Disposable": "Yes",
         "Shape": "",
         "Washable": "",
-        "id": "0027"
+        "id": "0027",
+        "Price_Value": 12
     },
     {
         "Product_Category": "Bed Sheets",
@@ -808,7 +771,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Machine Washable",
-        "id": "0028"
+        "id": "0028",
+        "Price_Value": 320
     },
     {
         "Product_Category": "Bed Sheets",
@@ -836,7 +800,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0029"
+        "id": "0029",
+        "Price_Value": 240
     },
     {
         "Product_Category": "Fabric",
@@ -866,7 +831,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Machine Washable",
-        "id": "0030"
+        "id": "0030",
+        "Price_Value": 320
     },
     {
         "Product_Category": "Fabric",
@@ -894,7 +860,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Machine Wash",
-        "id": "0031"
+        "id": "0031",
+        "Price_Value": 23
     },
     {
         "Product_Category": "OT Sheet",
@@ -922,7 +889,8 @@
         "Disposable": "",
         "Shape": "Rectangular",
         "Washable": "",
-        "id": "0032"
+        "id": "0032",
+        "Price_Value": 300
     },
     {
         "Product_Category": "OT Sheet",
@@ -950,7 +918,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0033"
+        "id": "0033",
+        "Price_Value": 240
     },
     {
         "Product_Category": "OT Sheet",
@@ -978,7 +947,8 @@
         "Disposable": "",
         "Shape": "Rectangular",
         "Washable": "",
-        "id": "0034"
+        "id": "0034",
+        "Price_Value": 190
     },
     {
         "Product_Category": "OT Sheet",
@@ -1006,7 +976,8 @@
         "Disposable": "",
         "Shape": "Rectangular",
         "Washable": "",
-        "id": "0035"
+        "id": "0035",
+        "Price_Value": 160
     },
     {
         "Product_Category": "OT Sheet",
@@ -1034,7 +1005,8 @@
         "Disposable": "",
         "Shape": "Rectangular",
         "Washable": "",
-        "id": "0036"
+        "id": "0036",
+        "Price_Value": 310
     },
     {
         "Product_Category": "OT Sheet",
@@ -1062,7 +1034,8 @@
         "Disposable": "",
         "Shape": "Rectangular",
         "Washable": "",
-        "id": "0037"
+        "id": "0037",
+        "Price_Value": 85
     },
     {
         "Product_Category": "OT Sheet",
@@ -1090,7 +1063,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Handwash",
-        "id": "0038"
+        "id": "0038",
+        "Price_Value": 85
     },
     {
         "Product_Category": "OT Sheet",
@@ -1118,7 +1092,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Handwash",
-        "id": "0039"
+        "id": "0039",
+        "Price_Value": 195
     },
     {
         "Product_Category": "OT Sheet",
@@ -1146,7 +1121,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Handwash",
-        "id": "0040"
+        "id": "0040",
+        "Price_Value": 250
     },
     {
         "Product_Category": "OT Sheet",
@@ -1174,7 +1150,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Yes",
-        "id": "0041"
+        "id": "0041",
+        "Price_Value": 210
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1202,7 +1179,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0042"
+        "id": "0042",
+        "Price_Value": 95
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1230,7 +1208,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0043"
+        "id": "0043",
+        "Price_Value": 430
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1258,7 +1237,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0044"
+        "id": "0044",
+        "Price_Value": 250
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1286,7 +1266,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0045"
+        "id": "0045",
+        "Price_Value": 300
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1314,7 +1295,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0046"
+        "id": "0046",
+        "Price_Value": 350
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1342,7 +1324,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0047"
+        "id": "0047",
+        "Price_Value": 350
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1370,7 +1353,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0048"
+        "id": "0048",
+        "Price_Value": 351
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1398,7 +1382,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0049"
+        "id": "0049",
+        "Price_Value": 450
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1426,7 +1411,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0050"
+        "id": "0050",
+        "Price_Value": 350
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1454,7 +1440,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0051"
+        "id": "0051",
+        "Price_Value": 350
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1482,7 +1469,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0052"
+        "id": "0052",
+        "Price_Value": 400
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1510,7 +1498,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0053"
+        "id": "0053",
+        "Price_Value": 350
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1538,7 +1527,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0054"
+        "id": "0054",
+        "Price_Value": 350
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1566,7 +1556,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0055"
+        "id": "0055",
+        "Price_Value": 310
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1594,7 +1585,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0056"
+        "id": "0056",
+        "Price_Value": 450
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1622,7 +1614,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0057"
+        "id": "0057",
+        "Price_Value": 450
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1650,7 +1643,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0058"
+        "id": "0058",
+        "Price_Value": 350
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1678,7 +1672,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0059"
+        "id": "0059",
+        "Price_Value": 450
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1706,7 +1701,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0060"
+        "id": "0060",
+        "Price_Value": 350
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1734,7 +1730,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Machine Washable",
-        "id": "0061"
+        "id": "0061",
+        "Price_Value": 425
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1762,7 +1759,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Machine Washable",
-        "id": "0062"
+        "id": "0062",
+        "Price_Value": 450
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1790,7 +1788,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Machine Washable",
-        "id": "0063"
+        "id": "0063",
+        "Price_Value": 330
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1818,7 +1817,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Machine washable",
-        "id": "0064"
+        "id": "0064",
+        "Price_Value": 250
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1846,7 +1846,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "Machine Washable",
-        "id": "0065"
+        "id": "0065",
+        "Price_Value": 350
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1874,7 +1875,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0066"
+        "id": "0066",
+        "Price_Value": 555
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1903,7 +1905,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0067"
+        "id": "0067",
+        "Price_Value": 360
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1931,7 +1934,8 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0068"
+        "id": "0068",
+        "Price_Value": 500
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1959,7 +1963,8 @@
         "Disposable": "Yes",
         "Shape": "",
         "Washable": "",
-        "id": "0069"
+        "id": "0069",
+        "Price_Value": 400
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1987,6 +1992,7 @@
         "Disposable": "",
         "Shape": "",
         "Washable": "",
-        "id": "0070"
+        "id": "0070",
+        "Price_Value": 150
     }
 ]

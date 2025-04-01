@@ -146,7 +146,7 @@ export default function CheckoutForm() {
                         placeholder="House No. , Street Name"
                         className={inputClasses}
                     />
-                    <input type="text" id="addressLine2" name="addressLine2" value={formData.addressLine2} onChange={handleChange} required
+                    <input type="text" id="addressLine2" name="addressLine2" value={formData.addressLine2} onChange={handleChange}
                         placeholder="House No. , Street Name"
                         className={inputClasses}
                     />
@@ -158,7 +158,7 @@ export default function CheckoutForm() {
                         <label htmlFor="phoneNumber" className={labelClasses}>Phone Number</label>
                         <div className="flex items-center">
                             <span className="px-2 py-1 md:px-4 md:py-3 md:mt-1 md:text-lg rounded-md bg-neutral-200 text-neutral-700 rounded-e-none border-r-2 border-neutral-400">+91</span>
-                            <input type="text" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} pattern="^\d{10}$" required
+                            <input type="text" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} pattern="^\d{10}$" required title="Phone number must be exactly 10 digits."
                                 className={`${inputClasses} rounded-s-none`}
                             />
                         </div>

@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export default function Page() {
     const cart = useSelector((state: RootState) => state.cart);
-    const subTotal = cart.reduce((acc, product) => acc + (parseInt(product.Price.split('/')[0] || "0") * product.quantity), 0);
+    const subTotal = cart.reduce((acc, product) => acc + (product.Price_Value * product.quantity), 0);
     
     return (
         <div className='flex flex-col max-w-[800px] mb-96 mx-auto'>
@@ -30,14 +30,14 @@ function ProductElementInCart(product: ProductInCart) {
     const dispatch = useDispatch();
 
     return (
-        <div key={product.id} className='bg-neutral-100 flex items-center justify-between gap-2 p-2 border-b-4 border-neutral-300 md:px-8 md:py-4'>
-            <img src={"/images/Products/" + product.Images[0]} alt="White Bed Comfortor" className="w-24 h-20 md:w-36 md:h-30 border border-neutral-500 rounded-lg" />
+        <div key={product.id + String(product.colorIndexSelected)} className='bg-neutral-100 flex items-center justify-between gap-2 p-2 border-b-4 border-neutral-300 md:px-8 md:py-4'>
+            <img src={"/images/Products/" + product.Images[product.colorIndexSelected]} alt="White Bed Comfortor" className="w-24 h-20 md:w-36 md:h-30 border border-neutral-500 rounded-lg" />
             <div className='flex-grow md:ml-10'>
                 <h3 className='font-bold md:text-xl md:m-1'>{product.Product_Name}</h3>
                 <p className='text-neutral-500 text-xs md:m-1'>{product.Description.length < 60 ? product.Description : product.Description.slice(0,60)+"..."}</p>
 
                 <div className='border-2 border-yellow-500 w-fit min-w-16 flex justify-between gap-1 rounded-lg md:m-2'>
-                    <button onClick={() => dispatch(removeFromCart(product.id))} className='cursor-pointer px-2'>-</button>
+                    <button onClick={() => dispatch(removeFromCart(product))} className='cursor-pointer px-2'>-</button>
                     <span>{product.quantity}</span>
                     <button onClick={() => dispatch(addToCart(product))} className='cursor-pointer px-2'>+</button>
                 </div>

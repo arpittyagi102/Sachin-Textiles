@@ -29,8 +29,13 @@ export default function Page() {
     }
 
     return (
-        <main>
+        <main className="relative">
             <div className="Product-View flex flex-col lg:flex-row justify-center gap-4 mt-4 md:gap-10">
+                <button className="absolute top-4 left-4 text-neutral-500 hover:text-neutral-800 hover:bg-neutral-200 p-2 rounded-xl" onClick={() => window.history.back()}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15 12H3m0 0l9-9m-9 9l9 9m0-9h18" />
+                    </svg>
+                </button>
                 <div className="Product-View-Image rounded-xl overflow-hidden flex justify-center items-center md:w-2/5">
                     <img loading="lazy" decoding="async" src={"/images/Products/" + product.Images[index]} alt={product.Product_Name} className="aspect-[4/3] h-full object-contain" />
                 </div>
@@ -38,7 +43,7 @@ export default function Page() {
                     <h1 className="text-2xl md:text-4xl md:mb-5 font-bold order-1">{product.Product_Name}</h1>
                     <p className="text-xs my-2 md:text-md text-neutral-500 order-4 md:mb-5 md:order-2">{product.Description}</p>
                     {colorsArray.length > 1 &&
-                        <div className="flex gap-2 mb-2">
+                        <div className="flex gap-2 mb-2 order-4 md:order-2">
                             {colorsArray.map((color, i) => {
                                 return <div key={i} onClick={() => colorSelected(i)} className={`color-circle w-6 h-6 rounded-full border cursor-pointer`} style={{ backgroundColor: color }}></div>
                             })}
@@ -52,7 +57,7 @@ export default function Page() {
                     </div>
 
                     <div className="order-3">
-                        <AddToBag product={product} />
+                        <AddToBag product={product} colorIndexSelected={index}/>
                     </div>
                 </div>
             </div>
