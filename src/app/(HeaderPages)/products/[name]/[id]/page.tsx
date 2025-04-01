@@ -31,7 +31,7 @@ export default function Page() {
     return (
         <main className="relative">
             <div className="Product-View flex flex-col md:flex-row justify-center gap-4 pt-4 md:gap-10">
-                <button className="absolute top-0 md:top-4 left-0 md:left-4 text-neutral-500 hover:text-neutral-800 hover:bg-neutral-200 p-2 rounded-xl" onClick={() => window.history.back()}>
+                <button className="absolute top-1 md:top-4 left-1 md:left-4 text-white bg-neutral-600 hover:bg-neutral-800 p-2 rounded-xl cursor-pointer" onClick={() => window.history.back()}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15 12H3m0 0l9-9m-9 9l9 9m0-9h18" />
                     </svg>
