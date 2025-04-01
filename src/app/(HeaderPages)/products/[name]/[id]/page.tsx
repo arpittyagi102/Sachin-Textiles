@@ -30,8 +30,8 @@ export default function Page() {
 
     return (
         <main className="relative">
-            <div className="Product-View flex flex-col lg:flex-row justify-center gap-4 mt-4 md:gap-10">
-                <button className="absolute top-4 left-4 text-neutral-500 hover:text-neutral-800 hover:bg-neutral-200 p-2 rounded-xl" onClick={() => window.history.back()}>
+            <div className="Product-View flex flex-col md:flex-row justify-center gap-4 pt-4 md:gap-10">
+                <button className="absolute top-0 md:top-4 left-0 md:left-4 text-neutral-500 hover:text-neutral-800 hover:bg-neutral-200 p-2 rounded-xl" onClick={() => window.history.back()}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15 12H3m0 0l9-9m-9 9l9 9m0-9h18" />
                     </svg>
@@ -39,7 +39,7 @@ export default function Page() {
                 <div className="Product-View-Image rounded-xl overflow-hidden flex justify-center items-center md:w-2/5">
                     <img loading="lazy" decoding="async" src={"/images/Products/" + product.Images[index]} alt={product.Product_Name} className="aspect-[4/3] h-full object-contain" />
                 </div>
-                <div className="Product-View-Details m-4 mb-0 md:mb-4 md:m-0 md:w-2/5 pr-8 flex flex-col">
+                <div className="Product-View-Details m-4 mb-0 md:mb-4 md:m-0 md:w-2/5 md:pr-8 flex flex-col">
                     <h1 className="text-2xl md:text-4xl md:mb-5 font-bold order-1">{product.Product_Name}</h1>
                     <p className="text-xs my-2 md:text-md text-neutral-500 order-4 md:mb-5 md:order-2">{product.Description}</p>
                     {colorsArray.length > 1 &&
