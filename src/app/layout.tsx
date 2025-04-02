@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Arpit Tyagi",
-  description: "Developed by Arpit Tyagi",
+  title: "Sachin Textiles",
+  description: "Sachin Textiles",
 };
 
 export default function RootLayout({

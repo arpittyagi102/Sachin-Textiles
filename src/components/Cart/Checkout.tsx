@@ -67,8 +67,8 @@ export default function Checkout({ amount }) {
                     }
                 },
                 prefill: {
-                    name: "ARPIT TYAGI",
-                    email: "ARPIT TYAGI ROCKS",
+                    name: "Your Name",
+                    email: "example@gmail.com",
                 },
                 theme: {
                     color: '#3399cc',
