@@ -35,7 +35,7 @@ export default function Checkout({ amount }) {
         try {
             const orderId: string = await createOrderId();
             const options = {
-                key: process.env.RAZORPAY_ID,
+                key: process.env.NEXT_PUBLIC_RAZORPAY_ID,
                 amount: parseFloat(amount) * 100,          // ! IMPORTANT
                 currency: 'INR',
                 name: 'name',

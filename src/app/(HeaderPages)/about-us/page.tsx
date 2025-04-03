@@ -3,6 +3,7 @@ import Image from "next/image"
 import ExploreScroll from "@/components/About/ExploreScroll";
 import Testimonials from "@/components/Home/Testimonials";
 import Footer from "@/components/Home/Footer";
+import Link from "next/link";
 
 export default function Page() {
     return (
@@ -48,7 +49,7 @@ function Hero() {
                 </div>
                 <h1 className="text-2xl md:text-6xl text-center font-bold my-4 md:my-6">Weaving Quality, Delivering Trust.</h1>
                 <p className=" md:text-xl mx-4 text-center md:max-w-2/3 my-1 md:my-2 text-neutral-500">With a focus on innovation, durability, and sustainability, we provide reliable textile solutions for medical, industrial, and commercial needs. Our dedication to excellence and ethical manufacturing ensures that every product we create enhances safety, comfort, and efficiency.</p>
-                <button className="bg-primary md:text-xl text-white px-3 py-1 md:px-4 md:py-2 rounded nd:mt-8">Learn More</button>
+                <Link href="/products" className="bg-primary md:text-xl text-white px-3 py-1 md:px-4 md:py-2 rounded nd:mt-8">Learn More</Link>
             </div>
         </section>
 

@@ -34,7 +34,7 @@ export default function Page() {
 
                 <form className="right bg-neutral-100 border border-neutral-400 rounded-xl grow p-3 md:p-10 flex flex-col justify-end order-1 md:order-2" action="https://formbold.com/s/3Oxq2" method="POST">
                     <input type="text" name="name" placeholder="Your Name" className="text-lg w-full p-2 md:p-4 mb-4 bg-white border border-neutral-300 rounded" required/>
-                    <input type="text" name="phone" placeholder="Phone Number" className="text-lg w-full p-2 md:p-4 mb-4 bg-white border border-neutral-300 rounded" />
+                    <input type="text" name="phone" placeholder="Phone Number" className="text-lg w-full p-2 md:p-4 mb-4 bg-white border border-neutral-300 rounded" required/>
                     <textarea name="message" className="text-lg w-full p-2 md:p-4 mb-4 bg-white border border-neutral-300 rounded" rows={5} placeholder="Message" required></textarea>
                     <div className="flex justify-center">
                         <button type="submit" className="bg-primary text-white px-6 py-2 mt-4 rounded">Enquire Now</button>

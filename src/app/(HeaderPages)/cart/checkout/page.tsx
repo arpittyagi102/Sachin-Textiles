@@ -53,7 +53,6 @@ export default function CheckoutForm() {
         if (!formData.country) newErrors.country = "Country is required.";
 
         setErrors(newErrors);
-        processPayment( subTotal.toString(), dispatch, router, formData);
         return Object.keys(newErrors).length === 0;
     };
 
@@ -64,6 +63,7 @@ export default function CheckoutForm() {
         if (validateForm()) {
             console.log("Form submitted successfully:", formData);
         }
+        processPayment( subTotal.toString(), dispatch, router, formData);
     };
 
     return (
