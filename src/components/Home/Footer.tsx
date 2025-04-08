@@ -19,7 +19,7 @@ export default function Footer() {
 
                     <img src="/images/Home/Footer/trusted-seller.png" alt="Trusted Seller" className="mt-4 h-12 mx-auto md:mx-0" />
                 </div>
-                
+
                 <div className="mt-8 md:mt-0 text-center">
                     <h1 className="text-2xl font-semibold text-primary">Address</h1>
                     <p>Bada mandir, Rawli road, Malik Nagar</p>
@@ -42,13 +42,13 @@ export default function Footer() {
 
                 <div className="mt-8 md:mt-0 text-center md:text-right">
                     <h1 className="text-2xl font-semibold text-primary">Contact Info</h1>
-                    <Link href="mailto:sachingoyal10021989@gmail.com​" className="block my-2 ">sachingoyal10021989@gmail.com</Link>
-                    <Link href="tel:+9108272865740" className="block">+91 082728 65740</Link>
+                    <Link href="mailto:sachintextilesindiamart@gmail.com​" className="block my-2 ">sachintextilesindiamart@gmail.com</Link>
+                    <Link href="tel:+918272865740" className="block">+91 82728 65740</Link>
 
                     <h1 className="text-2xl font-semibold text-primary mt-8">Powered by</h1>
-                    <img src="/images/Home/Footer/Verzon.png" alt="Verzon" className="h-16 mx-auto md:mr-0" height={24}/>
+                    <img src="/images/Home/Footer/netefie.jpeg" alt="Verzon" className="h-16 mx-auto md:mr-0" height={24} />
                 </div>
- 
+
                 <div className="text-xs absolute bottom-1 left-1/2 transform -translate-x-1/2 w-full text-center">
                     <p>© 2025 Sachin Textiles. All rights reserved.</p>
                 </div>

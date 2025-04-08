@@ -17,9 +17,8 @@ export default function Page() {
                     />
                     <div className="md:mt-10 bg-neutral-100 p-4 md:p-10 md:text-xl w-full rounded-xl">
                         <p className="mb-2 md:mb-4">Mr. Sachin Goyal</p>
-                        <p className="mb-2 md:mb-4">+918045801395</p>
-                        <p>Bada Mandir, Chungi No. 3, Muradnagar,<br />
-                            Near Bada Mandir, Murad Nagar Bazar,<br />
+                        <p className="mb-2 md:mb-4">+91 8272865740</p>
+                        <p> Near Bada Mandir, Murad Nagar Bazar,<br />
                             Muradnagar-201206, Uttar Pradesh, India</p>
                     </div>
                 </div>

@@ -49,7 +49,7 @@ function Hero() {
                 </div>
                 <h1 className="text-2xl md:text-6xl text-center font-bold my-4 md:my-6">Weaving Quality, Delivering Trust.</h1>
                 <p className=" md:text-xl mx-4 text-center md:max-w-2/3 my-1 md:my-2 text-neutral-500">With a focus on innovation, durability, and sustainability, we provide reliable textile solutions for medical, industrial, and commercial needs. Our dedication to excellence and ethical manufacturing ensures that every product we create enhances safety, comfort, and efficiency.</p>
-                <Link href="/products" className="bg-primary md:text-xl text-white px-3 py-1 md:px-4 md:py-2 rounded nd:mt-8">Learn More</Link>
+                <Link href="#about-us" className="bg-primary md:text-xl text-white px-3 py-1 md:px-4 md:py-2 rounded nd:mt-8">Learn More</Link>
             </div>
         </section>
 
@@ -87,7 +87,7 @@ function Quality({icon, name, description, className} : {icon: string, name: str
 
 function AboutSection() {
     return (
-        <section className="flex flex-col md:flex-row gap-10 md:gap-20 m-5 md:m-20 mb-30 md:mb-40">
+        <section className="flex flex-col md:flex-row gap-10 md:gap-20 m-5 md:m-20 mb-30 md:mb-20" id="about-us">
             <div className="md:w-1/2">
                 <p className="text-xl">About Us</p>
                 <h1 className="text-2xl md:text-4xl font-bold my-3 md:my-5">Making Every Fiber Count</h1>
