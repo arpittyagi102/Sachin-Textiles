@@ -107,4 +107,19 @@ const HOME_CATEGORIES = [
     "/images/Home/dh5.png",
 ]
 
-export { CATEGORIES, PRODUCTS, CAROUSEL_IMAGES, HERO_CONTENT, HOME_CATEGORIES, NAV_ITEMS, SOCIAL_MEDIA, DP_SECTION };
+const CLIENTS = [
+    "/images/Home/Clients/AIIMS.webp",
+    "/images/Home/Clients/andman-nicobar.webp",
+    "/images/Home/Clients/Assam-State.webp",
+    "/images/Home/Clients/defence-health-agency.webp",
+    "/images/Home/Clients/gov-med-college.webp",
+    "/images/Home/Clients/gov-med-col-chandigarh.webp",
+    "/images/Home/Clients/KVM.webp",
+    "/images/Home/Clients/Ministry-of-Housing.webp",
+    "/images/Home/Clients/Ministry-of-Urban-Dev.webp",
+    "/images/Home/Clients/Nahrc.webp",
+    "/images/Home/Clients/NIPC.webp",
+    "/images/Home/Clients/university-of-delhi.webp",
+]
+
+export { CATEGORIES, PRODUCTS, CAROUSEL_IMAGES, HERO_CONTENT, HOME_CATEGORIES, NAV_ITEMS, SOCIAL_MEDIA, DP_SECTION, CLIENTS };

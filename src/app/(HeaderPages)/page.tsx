@@ -8,6 +8,7 @@ import { PRODUCTS } from "@/constants";
 import ExploreScroll from "@/components/Home/ExploreScroll";
 import BestSellers from "@/components/Home/BestSellers";
 import MapSection from "@/components/Home/MapSection"
+import ClientsScroll from "@/components/Home/ClientsScroll";
 import Testimonials from "@/components/Home/Testimonials";
 import Footer from "@/components/Home/Footer";
 
@@ -34,6 +35,8 @@ export default function Home() {
             <MapSection />
 
             <Ratings />
+
+            <ClientsScroll />
 
             <Testimonials />
 
