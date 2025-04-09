@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero({ items }: HeroProps) {
     return (
@@ -12,12 +13,12 @@ export default function Hero({ items }: HeroProps) {
 
             <div className="flex flex-wrap justify-between mt-6 md:gap-10">
                 {items.map((item: HeroItem, index: number) => (
-                    <div key={index} className='w-[27%] flex flex-col items-center'>
+                    <Link key={index} className='w-[27%] flex flex-col items-center' href={'/products?Major_Category=' + item.name}>
                         <Image src={item.image} alt={item.name} height="300" width="300" className="aspect-square object-cover rounded-xl" />
                         <div className="px-0 md:px-4 p-2 md:p-4 bg-opacity-50 text-center">
                             <h3 className="md:text-xl font-bold">{item.name}</h3>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
 

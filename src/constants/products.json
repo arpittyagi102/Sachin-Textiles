@@ -27,7 +27,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0003",
-        "Price_Value": 25
+        "Price_Value": 25,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "Cotton Duster",
@@ -57,7 +58,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0004",
-        "Price_Value": 15
+        "Price_Value": 15,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "Cotton Duster",
@@ -87,7 +89,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0005",
-        "Price_Value": 25
+        "Price_Value": 25,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "Checks Fabric",
@@ -117,7 +120,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0006",
-        "Price_Value": 25
+        "Price_Value": 25,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "Kitchen Apron",
@@ -148,7 +152,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0007",
-        "Price_Value": 80
+        "Price_Value": 80,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "Bed Comforter",
@@ -178,7 +183,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0008",
-        "Price_Value": 800
+        "Price_Value": 800,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "PPE Kit",
@@ -207,7 +213,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0009",
-        "Price_Value": 200
+        "Price_Value": 200,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "PPE Kit",
@@ -236,7 +243,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0010",
-        "Price_Value": 300
+        "Price_Value": 300,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Head Cap",
@@ -265,7 +273,8 @@
         "Shape": "Circle",
         "Washable": "Yes",
         "id": "0011",
-        "Price_Value": 13
+        "Price_Value": 13,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Head Cap",
@@ -294,7 +303,8 @@
         "Shape": "Circle",
         "Washable": "",
         "id": "0012",
-        "Price_Value": 2
+        "Price_Value": 2,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Head Cap",
@@ -323,7 +333,8 @@
         "Shape": "Circle",
         "Washable": "",
         "id": "0013",
-        "Price_Value": 2
+        "Price_Value": 2,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Casement Fabric",
@@ -355,7 +366,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0014",
-        "Price_Value": 65
+        "Price_Value": 65,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "Casement Fabric",
@@ -384,7 +396,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0015",
-        "Price_Value": 64
+        "Price_Value": 64,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -413,7 +426,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0016",
-        "Price_Value": 180
+        "Price_Value": 180,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -442,7 +456,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0017",
-        "Price_Value": 230
+        "Price_Value": 230,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -471,7 +486,8 @@
         "Shape": "",
         "Washable": "Dry Clean",
         "id": "0018",
-        "Price_Value": 380
+        "Price_Value": 380,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -500,7 +516,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0019",
-        "Price_Value": 240
+        "Price_Value": 240,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -529,7 +546,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0020",
-        "Price_Value": 28
+        "Price_Value": 28,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -558,7 +576,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0021",
-        "Price_Value": 140
+        "Price_Value": 140,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -589,7 +608,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0022",
-        "Price_Value": 150
+        "Price_Value": 150,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "Hospital Bed Sheets",
@@ -620,7 +640,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0023",
-        "Price_Value": 240
+        "Price_Value": 240,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "Face Mask",
@@ -656,7 +677,8 @@
         "Shape": "",
         "Washable": "Yes",
         "id": "0024",
-        "Price_Value": 10
+        "Price_Value": 10,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Face Mask",
@@ -685,7 +707,8 @@
         "Shape": "",
         "Washable": "No",
         "id": "0025",
-        "Price_Value": 10
+        "Price_Value": 10,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Face Mask",
@@ -714,7 +737,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0026",
-        "Price_Value": 12
+        "Price_Value": 12,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Face Mask",
@@ -743,7 +767,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0027",
-        "Price_Value": 12
+        "Price_Value": 12,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Bed Sheets",
@@ -772,7 +797,8 @@
         "Shape": "",
         "Washable": "Machine Washable",
         "id": "0028",
-        "Price_Value": 320
+        "Price_Value": 320,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "Bed Sheets",
@@ -801,7 +827,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0029",
-        "Price_Value": 240
+        "Price_Value": 240,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "Fabric",
@@ -832,7 +859,8 @@
         "Shape": "",
         "Washable": "Machine Washable",
         "id": "0030",
-        "Price_Value": 320
+        "Price_Value": 320,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "Fabric",
@@ -861,7 +889,8 @@
         "Shape": "",
         "Washable": "Machine Wash",
         "id": "0031",
-        "Price_Value": 23
+        "Price_Value": 23,
+        "Major_Category": "Industrial Textiles"
     },
     {
         "Product_Category": "OT Sheet",
@@ -890,7 +919,8 @@
         "Shape": "Rectangular",
         "Washable": "",
         "id": "0032",
-        "Price_Value": 300
+        "Price_Value": 300,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "OT Sheet",
@@ -919,7 +949,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0033",
-        "Price_Value": 240
+        "Price_Value": 240,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "OT Sheet",
@@ -948,7 +979,8 @@
         "Shape": "Rectangular",
         "Washable": "",
         "id": "0034",
-        "Price_Value": 190
+        "Price_Value": 190,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "OT Sheet",
@@ -977,7 +1009,8 @@
         "Shape": "Rectangular",
         "Washable": "",
         "id": "0035",
-        "Price_Value": 160
+        "Price_Value": 160,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "OT Sheet",
@@ -1006,7 +1039,8 @@
         "Shape": "Rectangular",
         "Washable": "",
         "id": "0036",
-        "Price_Value": 310
+        "Price_Value": 310,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "OT Sheet",
@@ -1035,7 +1069,8 @@
         "Shape": "Rectangular",
         "Washable": "",
         "id": "0037",
-        "Price_Value": 85
+        "Price_Value": 85,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "OT Sheet",
@@ -1064,7 +1099,8 @@
         "Shape": "",
         "Washable": "Handwash",
         "id": "0038",
-        "Price_Value": 85
+        "Price_Value": 85,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "OT Sheet",
@@ -1093,7 +1129,8 @@
         "Shape": "",
         "Washable": "Handwash",
         "id": "0039",
-        "Price_Value": 195
+        "Price_Value": 195,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "OT Sheet",
@@ -1122,7 +1159,8 @@
         "Shape": "",
         "Washable": "Handwash",
         "id": "0040",
-        "Price_Value": 250
+        "Price_Value": 250,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "OT Sheet",
@@ -1151,7 +1189,8 @@
         "Shape": "",
         "Washable": "Yes",
         "id": "0041",
-        "Price_Value": 210
+        "Price_Value": 210,
+        "Major_Category": "Healthcare Textiles"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1180,7 +1219,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0042",
-        "Price_Value": 95
+        "Price_Value": 95,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1209,7 +1249,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0043",
-        "Price_Value": 430
+        "Price_Value": 430,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1238,7 +1279,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0044",
-        "Price_Value": 250
+        "Price_Value": 250,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1267,7 +1309,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0045",
-        "Price_Value": 300
+        "Price_Value": 300,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1296,7 +1339,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0046",
-        "Price_Value": 350
+        "Price_Value": 350,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1325,7 +1369,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0047",
-        "Price_Value": 350
+        "Price_Value": 350,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1354,7 +1399,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0048",
-        "Price_Value": 351
+        "Price_Value": 351,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1383,7 +1429,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0049",
-        "Price_Value": 450
+        "Price_Value": 450,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1412,7 +1459,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0050",
-        "Price_Value": 350
+        "Price_Value": 350,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1441,7 +1489,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0051",
-        "Price_Value": 350
+        "Price_Value": 350,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1470,7 +1519,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0052",
-        "Price_Value": 400
+        "Price_Value": 400,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1499,7 +1549,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0053",
-        "Price_Value": 350
+        "Price_Value": 350,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1528,7 +1579,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0054",
-        "Price_Value": 350
+        "Price_Value": 350,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1557,7 +1609,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0055",
-        "Price_Value": 310
+        "Price_Value": 310,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1586,7 +1639,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0056",
-        "Price_Value": 450
+        "Price_Value": 450,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1615,7 +1669,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0057",
-        "Price_Value": 450
+        "Price_Value": 450,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1644,7 +1699,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0058",
-        "Price_Value": 350
+        "Price_Value": 350,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1673,7 +1729,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0059",
-        "Price_Value": 450
+        "Price_Value": 450,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1702,7 +1759,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0060",
-        "Price_Value": 350
+        "Price_Value": 350,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1731,7 +1789,8 @@
         "Shape": "",
         "Washable": "Machine Washable",
         "id": "0061",
-        "Price_Value": 425
+        "Price_Value": 425,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1760,7 +1819,8 @@
         "Shape": "",
         "Washable": "Machine Washable",
         "id": "0062",
-        "Price_Value": 450
+        "Price_Value": 450,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1789,7 +1849,8 @@
         "Shape": "",
         "Washable": "Machine Washable",
         "id": "0063",
-        "Price_Value": 330
+        "Price_Value": 330,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1818,7 +1879,8 @@
         "Shape": "",
         "Washable": "Machine washable",
         "id": "0064",
-        "Price_Value": 250
+        "Price_Value": 250,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1847,7 +1909,8 @@
         "Shape": "",
         "Washable": "Machine Washable",
         "id": "0065",
-        "Price_Value": 350
+        "Price_Value": 350,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1876,7 +1939,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0066",
-        "Price_Value": 555
+        "Price_Value": 555,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1906,7 +1970,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0067",
-        "Price_Value": 360
+        "Price_Value": 360,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1935,7 +2000,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0068",
-        "Price_Value": 500
+        "Price_Value": 500,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1964,7 +2030,8 @@
         "Shape": "",
         "Washable": "",
         "id": "0069",
-        "Price_Value": 400
+        "Price_Value": 400,
+        "Major_Category": "Medical Wears"
     },
     {
         "Product_Category": "Hospital Uniform",
@@ -1993,6 +2060,7 @@
         "Shape": "",
         "Washable": "",
         "id": "0070",
-        "Price_Value": 150
+        "Price_Value": 150,
+        "Major_Category": "Medical Wears"
     }
 ]

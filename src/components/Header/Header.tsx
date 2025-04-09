@@ -1,5 +1,5 @@
 'use client'
-import { CATEGORIES, NAV_ITEMS, SOCIAL_MEDIA } from "@/constants";
+import { CATEGORIES, NAV_ITEMS } from "@/constants";
 import { useSelector, useDispatch } from 'react-redux'
 import Image from "next/image";
 import Link from "next/link";
@@ -34,7 +34,7 @@ export default function Header() {
     return (<>
         <header className="mx-4 flex items-center justify-between flex-wrap md:flex-nowrap lg:px-4 pb-1 lg:py-2 bg-white xl:text-xl">
             {/* Logo */}
-            <Image src="/images/logo2.png" alt="Logo" width={200} height={200} className="w-30 lg:40 xl:w-50" />
+            <Image src="/images/logo2.png" alt="Logo" width={200} height={200} className="w-20 lg:w-30" />
 
             {/* Right buttons */}
             <div className="right-buttons flex items-center order-2 md:order-3">

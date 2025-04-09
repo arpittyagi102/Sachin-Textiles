@@ -20,36 +20,35 @@ export default function Page() {
 function ProductPage() {
     const searchParams = useSearchParams();
     const category = searchParams.get("category");
+    const majorCategory = searchParams.get("Major_Category");
     const searchString = useSelector((state: RootState) => state.search.value);
     const [filteredProducts, setFilteredProducts] = useState(PRODUCTS);
 
     useEffect(() => {
         let result = PRODUCTS;
-
-        // Apply search filter
+    
         if (searchString) {
             result = result.filter((product) =>
                 product.Product_Name.toLowerCase().includes(searchString.toLowerCase())
             );
         }
-        setFilteredProducts(result);
-    }, [searchString]);
-
-
-    useEffect(() => {
-        let result = PRODUCTS;
-
+    
         if (category && category !== "All Products") {
             result = result.filter((product) => product.Product_Category === category);
         }
+    
+        if (majorCategory) {
+            result = result.filter((product) => product.Major_Category === majorCategory);
+        }
+    
         setFilteredProducts(result);
-    }, [category]);
-
+    }, [searchString, category, majorCategory]);
+    
 
     return (
         <>
             {/* Conditionally render Categories only if no searchString or category */}
-            {!searchString && (!category || category === "All Products") ? (
+            {!searchString && (!category || category === "All Products") && !majorCategory ? (
                 <Categories items={CATEGORIES} />
             ) : null}
             <Products items={filteredProducts} />
