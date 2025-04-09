@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { SOCIAL_MEDIA } from "@/constants";
-import Image from "next/image";
+// import { SOCIAL_MEDIA } from "@/constants";
+// import Image from "next/image";
 
 export default function Footer() {
     return (
@@ -18,6 +18,7 @@ export default function Footer() {
                     </ul>
 
                     <img src="/images/Home/Footer/trusted-seller.png" alt="Trusted Seller" className="mt-4 h-12 mx-auto md:mx-0" />
+                    
                 </div>
 
                 <div className="mt-8 md:mt-0 text-center">
@@ -29,15 +30,7 @@ export default function Footer() {
                         Shop Now
                     </Link>
 
-                    <ul className="hidden md:flex items-center justify-center space-x-2 mt-4">
-                        {SOCIAL_MEDIA.map((item, index) => (
-                            <li key={index}>
-                                <Link href={item.link} target="_blank" rel="noreferrer">
-                                    <Image src={item.icon} alt={item.name} width={32} height={32} />
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
+                    <img src="/images/Home/Footer/Make-in-India.webp" alt="Trusted Seller" className="h-20 mx-auto" />
                 </div>
 
                 <div className="mt-8 md:mt-0 text-center md:text-right">

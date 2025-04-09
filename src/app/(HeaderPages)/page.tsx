@@ -34,6 +34,13 @@ export default function Home() {
 
             <MapSection />
 
+            <div className="relative flex justify-center items-center">
+                <div className="bg-white z-1 relative px-5 ">
+                    <h1 className="text-2xl md:text-5xl font-bold text-center text-black bg-white">An <span className="text-green-500">ISO, GMP, CE</span> Certified Company</h1>
+                </div>
+                <hr className="absolute top-1/2 w-full z-0 border-1 bg-neutral-400 border-neutral-400"/>
+            </div>
+
             <Ratings />
 
             <ClientsScroll />

@@ -74,7 +74,7 @@ export default function Header() {
 
                 {/* Search Bar */}
                 <input type="text" placeholder="Search for products" className="w-full focus:outline-none px-1 lg:px-5 " value={searchString} onChange={(e) => dispatch(searchChange(e.target.value))} />
-                <button className="h-8 w-6 p-1 my-auto pr-8 md:h-10 md:w-10 md:p-2 md:pr-4">
+                <button className="h-8 w-6 p-1 my-auto pr-8 md:h-10 md:w-10 md:p-2 md:pr-4 cursor-pointer" onClick={() => router.push("/products")}>
                     <svg height="20px" width="20px" viewBox="0 0 24 24" className=" fill-neutral-400" xmlns="http://www.w3.org/2000/svg">
                         <g id="SVGRepo_bgCarrier" strokeWidth="0" />
                         <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" />

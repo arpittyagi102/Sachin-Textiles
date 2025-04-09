@@ -31,18 +31,32 @@ function ProductPage() {
             result = result.filter((product) =>
                 product.Product_Name.toLowerCase().includes(searchString.toLowerCase())
             );
+
+            setFilteredProducts(result);
         }
-    
+    },[searchString]);
+
+
+    useEffect(() => {
+        let result = PRODUCTS;
+
         if (category && category !== "All Products") {
             result = result.filter((product) => product.Product_Category === category);
+            setFilteredProducts(result);
         }
+
+    }, [category]);
+
     
+    useEffect(() => {
+        let result = PRODUCTS;
+
         if (majorCategory) {
             result = result.filter((product) => product.Major_Category === majorCategory);
+            setFilteredProducts(result);
+            return;
         }
-    
-        setFilteredProducts(result);
-    }, [searchString, category, majorCategory]);
+    }, [majorCategory]);
     
 
     return (

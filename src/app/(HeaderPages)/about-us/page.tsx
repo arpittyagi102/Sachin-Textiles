@@ -3,6 +3,7 @@ import Image from "next/image"
 import ExploreScroll from "@/components/About/ExploreScroll";
 import Testimonials from "@/components/Home/Testimonials";
 import Footer from "@/components/Home/Footer";
+import ClientsScroll from "@/components/Home/ClientsScroll";
 import Link from "next/link";
 
 export default function Page() {
@@ -21,7 +22,16 @@ export default function Page() {
 
             <AboutSection/>
 
+            <div className="relative flex justify-center items-center">
+                <div className="bg-white z-1 relative px-5 ">
+                    <h1 className="text-2xl md:text-5xl font-bold text-center text-black bg-white">An <span className="text-green-500">ISO, GMP, CE</span> Certified Company</h1>
+                </div>
+                <hr className="absolute top-1/2 w-full z-0 border-1 bg-neutral-400 border-neutral-400"/>
+            </div>
+
             <Ratings/>
+
+            <ClientsScroll/>
 
             <Testimonials/>
 
