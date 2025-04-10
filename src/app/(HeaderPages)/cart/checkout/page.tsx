@@ -26,11 +26,12 @@ export default function CheckoutForm() {
         addressLine2: "",
         phoneNumber: "",
         email: "",
+        orderNotes: "",
     });
 
     const [errors, setErrors] = useState<Partial<CheckoutFormData>>({});
 
-    function handleChange (e: React.ChangeEvent<HTMLInputElement>) {
+    function handleChange (e: React.ChangeEvent<HTMLInputElement> | React.ChangeEvent<HTMLTextAreaElement>) {
         const { name, value } = e.target;
         setFormData((prev) => ({
             ...prev,
@@ -51,7 +52,7 @@ export default function CheckoutForm() {
         if (!formData.pincode) newErrors.pincode = "Pincode is required.";
         if (!formData.state) newErrors.state = "State is required.";
         if (!formData.country) newErrors.country = "Country is required.";
-
+        
         setErrors(newErrors);
         return Object.keys(newErrors).length === 0;
     };
@@ -63,7 +64,7 @@ export default function CheckoutForm() {
         if (validateForm()) {
             console.log("Form submitted successfully:", formData);
         }
-        processPayment( subTotal.toString(), dispatch, router, formData);
+        processPayment( subTotal.toString(), dispatch, router, {...formData, ...cart});
     };
 
     return (
@@ -175,6 +176,14 @@ export default function CheckoutForm() {
                     </div>
                 </div>
 
+                <div>
+                    <label htmlFor="orderNotes" className={labelClasses}>Order Notes (optional)</label>
+                    <textarea id="orderNotes" name="orderNotes" rows={4} value={formData.orderNotes} onChange={handleChange}
+                        placeholder="Special instructions about your order, e.g. color, quantity, special notes for delivery."
+                        className={`${inputClasses} resize-none`}
+                    />
+                </div>
+
                 <button type="submit" className="bg-primary cursor-pointer text-white text-lg rounded-lg px-7 py-2 mt-5 ml-auto">
                     Proceed to Checkout
                 </button>
@@ -201,4 +210,5 @@ interface CheckoutFormData {
     addressLine2: string;
     phoneNumber: string;
     email: string;
+    orderNotes: string;
 }

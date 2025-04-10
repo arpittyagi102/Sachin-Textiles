@@ -64,10 +64,24 @@ export const processPayment = async (
 
         const res = await result.json();
         if (res.isOk) {
-          // handle successful payment here
-          alert("Payment succeeded!");
-          dispatch(clearCart());
-          router.push("/");
+          // Payment Successful
+          const orderCompleted = await fetch("/api/order-complete", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(formdata),
+          });
+
+          if (!orderCompleted.ok) {
+                alert("Payment succeeded but could not place order !!!");
+            throw new Error("Network response was not ok");
+          } else {
+              dispatch(clearCart());
+                alert("Payment successful and order placed successfully.");
+              router.push("/");
+          }
+
         } else {
           alert(res.message || "Payment verification failed.");
         }

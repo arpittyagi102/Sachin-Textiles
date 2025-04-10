@@ -30,7 +30,7 @@ export default function Footer() {
                         Shop Now
                     </Link>
 
-                    <img src="/images/Home/Footer/Make-in-India.webp" alt="Trusted Seller" className="h-20 mx-auto" />
+                    <img src="/images/Home/Footer/Make-In-India.webp" alt="Trusted Seller" className="h-20 mx-auto" />
                 </div>
 
                 <div className="mt-8 md:mt-0 text-center md:text-right">
