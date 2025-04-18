@@ -41,6 +41,7 @@ Welcome to the official e-commerce platform for **Sachin Textiles**, a modern, m
 ---
 
 ## 📷 Screenshots
+![sachintextiles](https://github.com/user-attachments/assets/d196b029-00a8-4827-9646-4c76ad836a0d)
 
 
 ## 🛠️ Getting Started
