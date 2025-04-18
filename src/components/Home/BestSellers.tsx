@@ -114,68 +114,6 @@ function Product({ item }) {
 
 const someProducts = [
     {
-        "Product_Category": "Garbage bag",
-        "Images": [
-            "transblue_gb.webp",
-            "trans_green_gb.webp",
-            "trans_white_gb.webp",
-            "transpink_gb (1).webp",
-            "trans_black_gb.webp"
-        ],
-        "Product_Name": "Clear Garbage bag",
-        "Description": "We have comprehensive range of high quality Trash Bags that finds application in various areas. Our range of Trash Bags is widely appreciated by the clients, owing to its eco-friendliness and long lasting nature. The Trash Bags offered by us have high endurance and are light weighted. Draw string trash bags that we manufacture can be availed in various sizes.",
-        "Feature": "recyclable",
-        "Price": "",
-        "Gender": "",
-        "Style": "",
-        "Material": "Plastic",
-        "Pattern": "",
-        "Color": "green black white blue pink",
-        "Sleeve_Style": "",
-        "Size": "small, medium, large, Xl",
-        "type": "",
-        "handeling": "open top",
-        "Waist_Pocket": "",
-        "Texture": "",
-        "Strength": "",
-        "Filling": "",
-        "Reusable": "",
-        "Disposable": "",
-        "Shape": "",
-        "Washable": "",
-        "id": "0001"
-    },
-    {
-        "Product_Category": "Garbage bag",
-        "Images": [
-            "black_garbage_bag.webp",
-            "green_garbage_bag.webp",
-            "white_garbage_bag.webp"
-        ],
-        "Product_Name": "Garbage bag",
-        "Description": "",
-        "Feature": "recyclable",
-        "Price": "",
-        "Gender": "",
-        "Style": "",
-        "Material": "Plastic",
-        "Pattern": "",
-        "Color": "black white green",
-        "Sleeve_Style": "",
-        "Size": "small, medium, large, Xl",
-        "type": "",
-        "handeling": "open top",
-        "Waist_Pocket": "",
-        "Texture": "",
-        "Strength": "",
-        "Filling": "",
-        "Reusable": "",
-        "Disposable": "",
-        "Shape": "",
-        "Washable": "",
-        "id": "0002"
-    },
-    {
         "Product_Category": "Sofa Astar Fabric",
         "Images": [
             "brown_sofa_astar_fab.webp",
