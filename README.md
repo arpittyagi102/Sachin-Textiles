@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧵 Sachin Textiles — E-commerce Web App
 
-## Getting Started
+Welcome to the official e-commerce platform for **Sachin Textiles**, a modern, mobile-first, and SEO-optimized web application built with cutting-edge technologies.
 
-First, run the development server:
+> ✨ Built to deliver a smooth shopping experience with blazing speed, intuitive navigation, and a visually appealing interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Tech Stack
+
+- **[Next.js 15](https://nextjs.org/)** – App Router, SSR + SSG
+- **[TypeScript](https://www.typescriptlang.org/)** – Static typing
+- **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first styling
+- **[Redux Toolkit](https://redux-toolkit.js.org/)** – State management
+- **[Razorpay](https://razorpay.com/)** – Seamless payment integration
+
+---
+
+## 🎯 Features
+
+- 🛍️ **Category-wise Shopping** – Browse by product categories
+- 🧠 **SEO Optimized** – Server-side rendered pages with rich metadata and structured data
+- 🔍 **Search Functionality** – Fast and fuzzy product searching
+- 📦 **Product Details Page** – With image carousels, metadata, and add-to-cart
+- 💳 **Razorpay Checkout** – Secure and integrated payment gateway
+- ⚙️ **SSG + SSR** – Lightning-fast performance with hybrid rendering
+- 🎨 **Reusable Components** – Modular and scalable architecture
+- 📱 **Responsive Design** – Mobile-first, beautifully crafted UI
+
+---
+
+## 🧪 Core Pages
+
+- `/` – Home page with featured products & banners
+- `/products` – Displays a grid of all available products with searching and filtering
+- `/products?category=[slug]` – Dynamic category-based browsing
+- `/product/[name]/[id]` – Product detail page with full SEO support
+- `/cart` – Redux-powered shopping cart
+- `/cart/checkout` – Razorpay-based payment flow
+
+---
+
+## 📷 Screenshots
+
+
+## 🛠️ Getting Started
+
+### 1. Clone the repo
+```
+git clone https://github.com/arpittyagi102/Sachin-Textiles
+cd sachin-textiles
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependencies
+```
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Create `.env.local` file
+```
+NEXT_PUBLIC_RAZORPAY_ID="yourrazorpayid"
+NEXT_PUBLIC_RAZORPAY_SECRET="yourrazorpaysecret"
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 4. Run the development server
+```
+npm run dev
+```
 
-## Learn More
+## 📬 Contact
+### **Arpit Tyagi**
 
-To learn more about Next.js, take a look at the following resources:
+Full Stack Developer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[🌐 Portfolio](https://arpittyagi.in) | [📧 LinkedIn](https://linkedin.com/in/arpittyagi102) | [⚒️ Projects](https://arpittyagi.in#projects)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 🧵 Made with ❤️ for Sachin Textiles
